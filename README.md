@@ -20,4 +20,27 @@ O projeto auxilia na **gestão da cadeia de suprimentos**, trazendo insights par
 
 ---
 
-## 📂 Estrutura do Repositório  
+## 📈 Resultado  
+
+📊 Visualização principal do dashboard:  
+![Dashboard Logístico](./dashboard_logistico.jpg)  
+
+Principais indicadores:  
+- **Custo do frete total**  
+- **Peso total dos produtos**  
+- **Soma de distâncias percorridas**  
+- **Quantidade de pedidos**  
+- **Status das entregas (Entregues, Atrasadas, Em trânsito)**  
+- **Distribuição de custos por modal e cliente**  
+
+---
+
+## 🤝 Contribuições  
+Sugestões e melhorias são bem-vindas! Abra uma **issue** ou envie um **pull request**.  
+
+---
+
+## 👨‍💻 Autor  
+**Marcos Vinicius Lima**  
+[LinkedIn](https://www.linkedin.com/in/marcosdados/) | [GitHub](https://github.com/marcosengdados)  
+
