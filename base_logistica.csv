@@ -1,0 +1,1001 @@
+Pedido_ID;Cliente;Data_Pedido;Data_Envio;Data_Entrega;Armazem;Cidade_Destino;Distancia_km;Modal;Peso_kg;Custo_Frete;Status_Entrega
+1001;Marcelo;2025-08-18;2025-08-21;2025-09-03;MG03;Fortaleza;1738;Rodoviário;9.5;964.0;Atrasado
+1002;Laís;2025-08-03;2025-08-06;2025-08-16;RS04;Fortaleza;230;Rodoviário;48.6;601.0;Atrasado
+1003;Guilherme;2025-08-04;2025-08-06;2025-08-10;SP01;São Paulo;559;Ferroviário;5.3;266.0;Entregue
+1004;Amanda;2025-09-03;2025-09-04;2025-09-07;MG03;Manaus;2147;Rodoviário;21.5;1288.5;Entregue
+1005;Mariana;2025-06-18;2025-06-20;2025-06-26;MG03;Goiânia;1367;Rodoviário;7.1;754.5;Entregue
+1006;Isadora;2025-08-06;2025-08-09;2025-08-10;MG03;Rio de Janeiro;2535;Aéreo;30.3;3141.0;Entregue
+1007;Emanuella;2025-09-04;2025-09-06;2025-09-11;RJ02;Curitiba;2239;Rodoviário;10.5;1224.5;Entregue
+1008;João Felipe;2025-08-05;2025-08-06;2025-08-15;RJ02;São Paulo;2055;Rodoviário;39.0;1417.5;Atrasado
+1009;Sabrina;2025-08-25;2025-08-27;2025-08-29;RS04;Salvador;1600;Aéreo;39.9;2398.0;Entregue
+1010;Thiago;2025-08-03;2025-08-05;2025-08-09;RJ02;Fortaleza;1375;Rodoviário;19.6;883.5;Entregue
+1011;Eduardo;2025-07-05;2025-07-06;2025-07-11;RS04;Manaus;2364;Rodoviário;29.4;1476.0;Entregue
+1012;Levi;2025-08-20;2025-08-21;2025-08-26;SP01;Vitória;2668;Ferroviário;13.9;1178.4;Entregue
+1013;Brenda;2025-07-21;2025-07-24;2025-07-31;RS04;Belo Horizonte;518;Ferroviário;8.3;273.6;Atrasado
+1014;Lucca;2025-09-07;2025-09-10;2025-09-14;MG03;Vitória;1963;Rodoviário;9.3;1074.5;Entregue
+1015;Ana Julia;2025-08-27;2025-08-30;2025-09-04;MG03;Goiânia;1995;Rodoviário;30.3;1300.5;Entregue
+1016;Ana Luiza;2025-06-27;2025-06-30;2025-07-06;MG03;São Paulo;1128;Rodoviário;39.7;961.0;Entregue
+1017;Vitória;2025-08-17;2025-08-20;2025-08-22;RJ02;Goiânia;1584;Rodoviário;45.3;1245.0;Entregue
+1018;Otávio;2025-09-02;2025-09-03;2025-09-07;RJ02;Porto Alegre;2378;Rodoviário;39.0;1579.0;Entregue
+1019;Milena;2025-07-06;2025-07-07;2025-07-10;MG03;Salvador;1919;Aéreo;41.4;2747.0;Entregue
+1020;Yago;2025-07-01;2025-07-02;2025-07-06;RS04;Goiânia;1463;Aéreo;29.3;2049.0;Entregue
+1021;João Vitor;2025-08-10;2025-08-12;2025-08-13;MG03;São Paulo;1508;Rodoviário;24.2;996.0;Entregue
+1022;Otávio;2025-07-21;2025-07-22;2025-08-04;RJ02;Fortaleza;1534;Rodoviário;15.0;917.0;Atrasado
+1023;Isis;2025-08-26;2025-08-29;2025-09-01;RJ02;Fortaleza;1236;Rodoviário;16.4;782.0;Entregue
+1024;Vinicius;2025-06-22;2025-06-24;2025-06-27;SP01;Porto Alegre;798;Ferroviário;27.6;540.0;Entregue
+1025;Kevin;2025-07-23;2025-07-25;2025-07-26;SP01;Belo Horizonte;1761;Rodoviário;27.0;1150.5;Entregue
+1026;Paulo;2025-07-27;2025-07-29;2025-08-02;MG03;Brasília;222;Rodoviário;41.1;522.0;Entregue
+1027;Mirella;2025-06-25;2025-06-26;2025-07-02;RJ02;Brasília;2899;Ferroviário;11.8;1254.0;Entregue
+1028;Rodrigo;2025-07-31;2025-08-03;2025-08-08;MG03;Curitiba;2911;Ferroviário;5.7;1210.0;Entregue
+1029;Lorena;2025-08-16;2025-08-19;2025-08-29;RS04;Recife;1943;Aéreo;22.9;2401.0;Atrasado
+1030;Miguel;2025-08-10;2025-08-13;;SP01;Brasília;2620;Rodoviário;29.4;1604.0;Em trânsito
+1031;Nicole;2025-08-16;2025-08-18;2025-08-22;RS04;Manaus;723;Rodoviário;28.8;649.5;Entregue
+1032;Calebe;2025-08-27;2025-08-29;;RJ02;Goiânia;552;Aéreo;33.5;1222.0;Em trânsito
+1033;Arthur;2025-09-06;2025-09-07;2025-09-10;RS04;Belo Horizonte;503;Aéreo;40.1;1305.0;Entregue
+1034;Isadora;2025-06-20;2025-06-23;;RS04;Salvador;203;Ferroviário;5.4;124.4;Em trânsito
+1035;Marcela;2025-07-07;2025-07-09;;SP01;Rio de Janeiro;2019;Rodoviário;26.9;1278.5;Em trânsito
+1036;Emanuelly;2025-08-09;2025-08-12;2025-08-13;RS04;São Paulo;1703;Rodoviário;19.6;1047.5;Entregue
+1037;Fernando;2025-08-23;2025-08-26;2025-09-09;SP01;Goiânia;1054;Rodoviário;16.9;696.0;Atrasado
+1038;João Miguel;2025-07-01;2025-07-03;2025-07-09;SP01;Belo Horizonte;2585;Aéreo;24.5;3075.0;Entregue
+1039;Vinicius;2025-08-10;2025-08-11;2025-08-15;MG03;São Paulo;552;Rodoviário;27.5;551.0;Entregue
+1040;Lucas;2025-08-22;2025-08-25;2025-09-08;SP01;Goiânia;1343;Rodoviário;17.6;847.5;Atrasado
+1041;Ana Luiza;2025-07-31;2025-08-02;2025-08-03;SP01;Fortaleza;2644;Rodoviário;30.8;1630.0;Entregue
+1042;Clarice;2025-08-13;2025-08-14;2025-08-19;SP01;Recife;1284;Rodoviário;12.6;768.0;Entregue
+1043;Davi Lucca;2025-08-19;2025-08-20;2025-08-26;RJ02;Belo Horizonte;1995;Rodoviário;14.4;1141.5;Entregue
+1044;Leandro;2025-08-16;2025-08-19;;RJ02;Brasília;2637;Aéreo;38.3;3403.0;Em trânsito
+1045;Isis;2025-07-22;2025-07-23;2025-07-29;RS04;Recife;1600;Rodoviário;23.9;1039.0;Entregue
+1046;Diego;2025-08-17;2025-08-19;2025-08-30;RS04;Manaus;135;Ferroviário;34.2;327.6;Atrasado
+1047;Pietra;2025-08-15;2025-08-17;2025-08-27;MG03;Recife;1266;Rodoviário;9.2;725.0;Atrasado
+1048;Emanuel;2025-08-05;2025-08-08;2025-08-11;SP01;Manaus;674;Aéreo;42.8;1530.0;Entregue
+1049;Alana;2025-08-17;2025-08-19;2025-08-23;RJ02;Salvador;1177;Rodoviário;19.7;785.5;Entregue
+1050;Thales;2025-07-01;2025-07-02;2025-07-06;SP01;Recife;1319;Ferroviário;13.7;637.2;Entregue
+1051;Lavínia;2025-06-25;2025-06-27;2025-07-01;RS04;Rio de Janeiro;735;Ferroviário;6.8;348.4;Entregue
+1052;João;2025-07-01;2025-07-04;2025-07-06;MG03;Manaus;840;Rodoviário;8.6;506.0;Entregue
+1053;Ana Laura;2025-07-08;2025-07-11;2025-07-16;SP01;Manaus;733;Rodoviário;16.3;529.5;Entregue
+1054;Nina;2025-09-01;2025-09-03;2025-09-04;RS04;Porto Alegre;996;Aéreo;38.2;1760.0;Entregue
+1055;Maria Eduarda;2025-06-22;2025-06-25;2025-06-30;MG03;Belo Horizonte;253;Rodoviário;39.1;517.5;Entregue
+1056;Benício;2025-08-03;2025-08-04;2025-08-08;SP01;São Paulo;2241;Aéreo;36.7;2975.0;Entregue
+1057;Vitor;2025-07-11;2025-07-13;2025-07-24;MG03;Curitiba;1412;Rodoviário;34.2;1048.0;Atrasado
+1058;Clarice;2025-09-13;2025-09-15;2025-09-20;RS04;Rio de Janeiro;2909;Aéreo;27.5;3459.0;Entregue
+1059;Isabella;2025-09-12;2025-09-13;2025-09-15;SP01;Goiânia;995;Ferroviário;41.0;726.0;Entregue
+1060;Antônio;2025-07-15;2025-07-17;2025-07-18;SP01;Belo Horizonte;1736;Ferroviário;41.9;1029.6;Entregue
+1061;Lara;2025-07-08;2025-07-10;2025-07-15;SP01;Goiânia;1730;Rodoviário;6.8;933.0;Entregue
+1062;Pedro Miguel;2025-06-30;2025-07-02;2025-07-03;RJ02;Fortaleza;2752;Ferroviário;6.0;1148.8;Entregue
+1063;Sarah;2025-07-17;2025-07-19;2025-07-23;RJ02;Porto Alegre;1749;Ferroviário;44.5;1055.6;Entregue
+1064;Maria Luiza;2025-07-03;2025-07-04;2025-07-11;RS04;Manaus;1992;Ferroviário;41.3;1127.2;Atrasado
+1065;Isabelly;2025-08-22;2025-08-23;2025-09-02;RJ02;São Paulo;2243;Rodoviário;46.9;1590.5;Atrasado
+1066;Thales;2025-07-17;2025-07-18;2025-07-23;MG03;Vitória;972;Rodoviário;29.0;776.0;Entregue
+1067;Ana;2025-07-18;2025-07-19;2025-07-22;MG03;São Paulo;1735;Rodoviário;45.7;1324.5;Entregue
+1068;Mirella;2025-08-27;2025-08-28;2025-09-03;MG03;Curitiba;950;Rodoviário;8.7;562.0;Entregue
+1069;Manuela;2025-09-08;2025-09-09;2025-09-10;RS04;Brasília;1592;Ferroviário;40.6;961.6;Entregue
+1070;Vitor Hugo;2025-07-08;2025-07-09;2025-07-14;RJ02;Manaus;2545;Rodoviário;24.9;1521.5;Entregue
+1071;Juan;2025-07-29;2025-08-01;2025-08-04;RJ02;Goiânia;1053;Ferroviário;9.6;498.0;Entregue
+1072;Alexandre;2025-08-25;2025-08-28;2025-08-30;SP01;Rio de Janeiro;2942;Ferroviário;8.7;1246.4;Entregue
+1073;Thiago;2025-07-28;2025-07-29;2025-08-03;SP01;Salvador;599;Rodoviário;45.8;757.5;Entregue
+1074;Danilo;2025-07-21;2025-07-22;2025-08-03;RS04;Belo Horizonte;2592;Rodoviário;36.7;1663.0;Atrasado
+1075;Davi Luiz;2025-07-06;2025-07-08;;MG03;Belo Horizonte;272;Rodoviário;26.1;397.0;Em trânsito
+1076;Ana Julia;2025-07-19;2025-07-21;2025-08-04;SP01;Vitória;2058;Ferroviário;31.3;1073.6;Atrasado
+1077;Kevin;2025-08-12;2025-08-14;2025-08-18;SP01;Vitória;923;Rodoviário;24.6;707.5;Entregue
+1078;Ana Júlia;2025-07-23;2025-07-25;2025-07-30;SP01;Porto Alegre;179;Rodoviário;49.7;586.5;Entregue
+1079;Samuel;2025-07-21;2025-07-22;2025-07-25;RS04;Vitória;2194;Ferroviário;36.3;1168.0;Entregue
+1080;Mariane;2025-08-06;2025-08-09;;RJ02;Salvador;2803;Ferroviário;46.2;1490.8;Em trânsito
+1081;Davi Lucas;2025-07-31;2025-08-02;;RS04;Salvador;767;Rodoviário;12.6;509.5;Em trânsito
+1082;Thales;2025-07-25;2025-07-27;2025-07-31;RJ02;Goiânia;2879;Rodoviário;16.7;1606.5;Entregue
+1083;Marcelo;2025-07-02;2025-07-05;2025-07-06;SP01;São Paulo;2136;Ferroviário;35.8;1140.8;Entregue
+1084;Isaac;2025-06-19;2025-06-20;2025-06-23;SP01;Salvador;1717;Rodoviário;31.2;1170.5;Entregue
+1085;Gabriel;2025-07-07;2025-07-08;2025-07-14;RJ02;Brasília;976;Rodoviário;23.5;723.0;Entregue
+1086;Luiz Henrique;2025-08-02;2025-08-04;2025-08-18;MG03;São Paulo;1902;Rodoviário;22.1;1172.0;Atrasado
+1087;Rafaela;2025-08-28;2025-08-30;2025-09-06;SP01;São Paulo;1733;Rodoviário;11.0;976.5;Atrasado
+1088;Evelyn;2025-08-16;2025-08-17;2025-08-23;RS04;São Paulo;2856;Aéreo;49.8;3852.0;Entregue
+1089;Luiz Gustavo;2025-07-10;2025-07-11;2025-07-16;SP01;Manaus;182;Rodoviário;25.3;344.0;Entregue
+1090;Yasmin;2025-09-06;2025-09-08;2025-09-13;SP01;Curitiba;1569;Aéreo;39.1;2351.0;Entregue
+1091;Fernanda;2025-07-30;2025-08-01;2025-08-03;RJ02;Rio de Janeiro;537;Ferroviário;28.4;442.0;Entregue
+1092;Mariane;2025-07-13;2025-07-14;2025-07-19;RJ02;Brasília;1948;Rodoviário;26.6;1240.0;Entregue
+1093;Benjamin;2025-07-16;2025-07-19;2025-07-30;RJ02;Rio de Janeiro;2222;Rodoviário;11.1;1222.0;Atrasado
+1094;Miguel;2025-07-22;2025-07-24;2025-07-26;RJ02;Brasília;2582;Aéreo;20.7;2996.0;Entregue
+1095;Vitor Gabriel;2025-06-21;2025-06-23;2025-06-27;RJ02;Recife;2228;Aéreo;11.6;2460.0;Entregue
+1096;Ana Julia;2025-07-28;2025-07-29;2025-08-02;RS04;Fortaleza;168;Aéreo;27.2;712.0;Entregue
+1097;Catarina;2025-07-12;2025-07-13;2025-07-16;RS04;Brasília;2006;Rodoviário;25.7;1260.0;Entregue
+1098;João Felipe;2025-07-14;2025-07-17;2025-07-21;RS04;Curitiba;1819;Rodoviário;44.3;1352.5;Entregue
+1099;Rafaela;2025-08-23;2025-08-26;2025-08-28;SP01;Manaus;1128;Rodoviário;20.6;770.0;Entregue
+1100;Pedro Miguel;2025-07-05;2025-07-07;2025-07-08;SP01;Vitória;623;Rodoviário;21.4;525.5;Entregue
+1101;Maria Sophia;2025-07-27;2025-07-29;2025-08-01;SP01;Manaus;2396;Rodoviário;36.0;1558.0;Entregue
+1102;Rebeca;2025-07-29;2025-07-31;2025-08-05;SP01;Manaus;2951;Ferroviário;38.7;1490.0;Entregue
+1103;Lorenzo;2025-06-20;2025-06-21;;MG03;Fortaleza;825;Rodoviário;39.2;804.5;Em trânsito
+1104;Augusto;2025-09-07;2025-09-09;2025-09-14;RJ02;Brasília;1435;Rodoviário;35.9;1076.5;Entregue
+1105;Eduarda;2025-08-10;2025-08-13;2025-08-17;SP01;Rio de Janeiro;2953;Rodoviário;15.9;1635.5;Entregue
+1106;Maria;2025-06-21;2025-06-22;2025-07-02;RJ02;Recife;2076;Ferroviário;9.0;902.4;Atrasado
+1107;Pietra;2025-07-01;2025-07-03;2025-07-04;SP01;Curitiba;2172;Ferroviário;40.5;1192.8;Entregue
+1108;Otávio;2025-09-06;2025-09-07;2025-09-11;MG03;Salvador;2181;Rodoviário;31.4;1404.5;Entregue
+1109;Maria Vitória;2025-08-06;2025-08-09;2025-08-14;RJ02;Curitiba;1405;Ferroviário;16.0;690.0;Entregue
+1110;Heloísa;2025-06-29;2025-07-02;;SP01;Vitória;1412;Rodoviário;15.1;857.0;Em trânsito
+1111;Maria Alice;2025-09-12;2025-09-14;2025-09-18;RJ02;Brasília;2497;Rodoviário;45.4;1702.5;Entregue
+1112;Isaac;2025-07-26;2025-07-29;2025-08-03;RS04;Fortaleza;1346;Aéreo;30.9;1964.0;Entregue
+1113;Benício;2025-07-07;2025-07-10;2025-07-22;RJ02;São Paulo;1729;Rodoviário;35.1;1215.5;Atrasado
+1114;Maitê;2025-06-21;2025-06-22;2025-07-01;RS04;Manaus;1558;Ferroviário;14.2;736.8;Atrasado
+1115;Vitor Hugo;2025-07-06;2025-07-08;2025-07-11;RS04;São Paulo;631;Rodoviário;10.2;417.5;Entregue
+1116;Heitor;2025-08-21;2025-08-23;2025-09-04;SP01;Brasília;2992;Rodoviário;7.3;1569.0;Atrasado
+1117;Pietro;2025-07-17;2025-07-19;2025-07-24;MG03;Manaus;2319;Rodoviário;35.8;1517.5;Entregue
+1118;Cauã;2025-08-27;2025-08-28;2025-08-29;SP01;Vitória;2094;Rodoviário;32.3;1370.0;Entregue
+1119;Manuela;2025-07-01;2025-07-04;2025-07-05;SP01;Goiânia;335;Rodoviário;47.0;637.5;Entregue
+1120;Davi;2025-06-25;2025-06-28;;RS04;Belo Horizonte;1670;Aéreo;37.5;2420.0;Em trânsito
+1121;Maria Cecília;2025-08-19;2025-08-20;2025-08-21;SP01;Goiânia;2945;Ferroviário;13.4;1285.2;Entregue
+1122;Brenda;2025-09-09;2025-09-12;2025-09-14;RJ02;Curitiba;700;Aéreo;22.7;1154.0;Entregue
+1123;Vitor Hugo;2025-07-09;2025-07-12;2025-07-26;MG03;Salvador;1988;Ferroviário;27.6;1016.0;Atrasado
+1124;Anthony;2025-09-15;2025-09-16;2025-09-18;RJ02;Porto Alegre;2251;Ferroviário;10.3;982.8;Entregue
+1125;Diego;2025-06-20;2025-06-22;2025-06-25;RS04;Manaus;1571;Rodoviário;44.5;1230.5;Entregue
+1126;Leandro;2025-08-09;2025-08-10;2025-08-13;RS04;Salvador;1220;Ferroviário;40.0;808.0;Entregue
+1127;Mariana;2025-07-27;2025-07-28;2025-08-03;RJ02;Manaus;616;Aéreo;20.4;1024.0;Entregue
+1128;Lucas Gabriel;2025-08-09;2025-08-11;2025-08-15;SP01;Fortaleza;2162;Ferroviário;11.7;958.4;Entregue
+1129;Helena;2025-08-12;2025-08-15;2025-08-20;RJ02;Brasília;194;Rodoviário;30.4;401.0;Entregue
+1130;Maria Fernanda;2025-07-20;2025-07-22;2025-07-27;RS04;Brasília;1965;Rodoviário;15.2;1134.5;Entregue
+1131;Emilly;2025-08-21;2025-08-24;2025-08-30;MG03;Goiânia;2365;Rodoviário;27.8;1460.5;Entregue
+1132;Enzo Gabriel;2025-09-11;2025-09-12;2025-09-16;MG03;Goiânia;455;Aéreo;40.6;1267.0;Entregue
+1133;Bruno;2025-08-25;2025-08-26;2025-09-03;SP01;Goiânia;2028;Rodoviário;38.1;1395.0;Atrasado
+1134;Laura;2025-06-21;2025-06-22;;MG03;São Paulo;2961;Rodoviário;12.4;1604.5;Em trânsito
+1135;Manuela;2025-06-25;2025-06-27;2025-07-04;MG03;Salvador;666;Rodoviário;32.4;657.0;Atrasado
+1136;Maysa;2025-06-29;2025-07-02;2025-07-03;RJ02;Curitiba;2460;Rodoviário;20.0;1430.0;Entregue
+1137;Thales;2025-07-14;2025-07-17;2025-07-19;MG03;Salvador;485;Rodoviário;26.6;508.5;Entregue
+1138;Nicole;2025-09-07;2025-09-10;2025-09-13;MG03;Goiânia;862;Rodoviário;12.9;560.0;Entregue
+1139;Gustavo;2025-08-21;2025-08-24;2025-08-29;RS04;São Paulo;2324;Ferroviário;17.5;1069.6;Entregue
+1140;João Pedro;2025-07-03;2025-07-05;2025-07-10;SP01;Recife;948;Aéreo;11.7;1182.0;Entregue
+1141;Daniela;2025-08-14;2025-08-16;2025-08-29;SP01;Fortaleza;2708;Rodoviário;18.9;1543.0;Atrasado
+1142;Alana;2025-07-03;2025-07-05;2025-07-14;RS04;Belo Horizonte;2179;Rodoviário;33.1;1420.5;Atrasado
+1143;Calebe;2025-08-08;2025-08-09;2025-08-12;RJ02;São Paulo;2737;Ferroviário;28.7;1324.4;Entregue
+1144;Danilo;2025-08-15;2025-08-17;2025-08-19;RJ02;Salvador;1046;Rodoviário;13.2;655.0;Entregue
+1145;Olivia;2025-06-18;2025-06-19;2025-06-22;RS04;Manaus;1581;Aéreo;28.7;2155.0;Entregue
+1146;Alícia;2025-08-18;2025-08-19;2025-08-23;RS04;Rio de Janeiro;932;Rodoviário;16.4;630.0;Entregue
+1147;Carolina;2025-07-28;2025-07-31;2025-08-05;RS04;Salvador;2908;Ferroviário;13.0;1267.2;Entregue
+1148;Lavínia;2025-06-26;2025-06-27;2025-06-29;MG03;Fortaleza;1411;Aéreo;42.4;2259.0;Entregue
+1149;Noah;2025-07-07;2025-07-08;2025-07-14;MG03;Recife;1043;Rodoviário;33.5;856.5;Entregue
+1150;Alice;2025-07-03;2025-07-04;2025-07-07;RS04;Belo Horizonte;1671;Ferroviário;36.7;962.0;Entregue
+1151;Brenda;2025-08-01;2025-08-02;2025-08-12;MG03;Manaus;1509;Rodoviário;6.5;819.5;Atrasado
+1152;João Vitor;2025-09-01;2025-09-02;2025-09-08;SP01;Rio de Janeiro;1176;Rodoviário;47.7;1065.0;Entregue
+1153;Pedro Lucas;2025-07-30;2025-08-01;2025-08-08;RJ02;Fortaleza;2206;Aéreo;41.0;3026.0;Atrasado
+1154;Otávio;2025-08-25;2025-08-26;2025-08-27;RJ02;Vitória;2699;Ferroviário;23.1;1264.4;Entregue
+1155;Caroline;2025-09-15;2025-09-16;2025-09-19;RJ02;Curitiba;2813;Rodoviário;12.7;1533.5;Entregue
+1156;Raquel;2025-09-11;2025-09-14;2025-09-20;RJ02;Porto Alegre;2189;Rodoviário;17.3;1267.5;Entregue
+1157;Maria Luiza;2025-06-29;2025-06-30;2025-07-06;RJ02;Goiânia;1722;Rodoviário;11.3;974.0;Entregue
+1158;Arthur;2025-06-18;2025-06-21;;RJ02;Brasília;267;Rodoviário;33.5;468.5;Em trânsito
+1159;Juliana;2025-07-12;2025-07-13;2025-07-18;SP01;Manaus;801;Rodoviário;7.1;471.5;Entregue
+1160;Alice;2025-07-28;2025-07-30;2025-08-08;SP01;Curitiba;1494;Rodoviário;22.5;972.0;Atrasado
+1161;Mariane;2025-08-11;2025-08-14;2025-08-15;MG03;Recife;2891;Rodoviário;26.4;1709.5;Entregue
+1162;Agatha;2025-07-17;2025-07-20;;RJ02;Porto Alegre;1412;Rodoviário;29.3;999.0;Em trânsito
+1163;Cauã;2025-08-11;2025-08-14;2025-08-17;SP01;Brasília;464;Rodoviário;33.0;562.0;Entregue
+1164;Gabrielly;2025-07-17;2025-07-19;2025-07-20;RS04;São Paulo;1764;Rodoviário;36.0;1242.0;Entregue
+1165;Gustavo Henrique;2025-08-19;2025-08-21;2025-08-24;MG03;Rio de Janeiro;1352;Rodoviário;48.5;1161.0;Entregue
+1166;Kamilly;2025-08-25;2025-08-27;2025-08-30;SP01;Goiânia;2964;Rodoviário;47.8;1960.0;Entregue
+1167;Bernardo;2025-06-24;2025-06-27;2025-07-01;RJ02;Fortaleza;438;Ferroviário;41.3;505.6;Entregue
+1168;Luana;2025-08-08;2025-08-11;2025-08-25;RJ02;Fortaleza;2613;Rodoviário;15.0;1456.5;Atrasado
+1169;Vicente;2025-06-25;2025-06-27;2025-06-29;MG03;Manaus;1139;Aéreo;13.1;1401.0;Entregue
+1170;Maria Alice;2025-07-11;2025-07-12;2025-07-18;MG03;Porto Alegre;236;Rodoviário;10.2;220.0;Entregue
+1171;Enzo Gabriel;2025-06-24;2025-06-27;;RJ02;Curitiba;1034;Rodoviário;28.5;802.0;Em trânsito
+1172;Sofia;2025-08-29;2025-09-01;2025-09-04;RS04;Goiânia;1221;Aéreo;28.9;1799.0;Entregue
+1173;Alexandre;2025-07-03;2025-07-05;2025-07-15;MG03;Fortaleza;2644;Rodoviário;34.8;1670.0;Atrasado
+1174;Ana Julia;2025-06-30;2025-07-01;2025-07-06;RJ02;Goiânia;410;Rodoviário;49.6;701.0;Entregue
+1175;Fernanda;2025-07-31;2025-08-03;2025-08-14;RJ02;Belo Horizonte;2014;Aéreo;20.8;2430.0;Atrasado
+1176;Heloísa;2025-08-01;2025-08-03;2025-08-09;SP01;Goiânia;796;Rodoviário;17.2;570.0;Entregue
+1177;Leandro;2025-07-10;2025-07-11;2025-07-18;MG03;Recife;439;Ferroviário;15.7;301.2;Atrasado
+1178;Ana Beatriz;2025-07-15;2025-07-18;2025-07-24;RJ02;Curitiba;245;Rodoviário;6.9;191.5;Entregue
+1179;Eduarda;2025-08-22;2025-08-23;;MG03;Vitória;498;Rodoviário;35.6;605.0;Em trânsito
+1180;Luiz Felipe;2025-07-25;2025-07-28;;SP01;Porto Alegre;1038;Rodoviário;49.2;1011.0;Em trânsito
+1181;Emanuelly;2025-08-28;2025-08-31;;MG03;Rio de Janeiro;2711;Rodoviário;23.1;1586.5;Em trânsito
+1182;Kevin;2025-06-25;2025-06-26;2025-07-01;MG03;Manaus;325;Rodoviário;6.7;229.5;Entregue
+1183;Daniela;2025-08-06;2025-08-08;2025-08-20;SP01;Porto Alegre;153;Aéreo;44.8;1049.0;Atrasado
+1184;Esther;2025-09-09;2025-09-12;2025-09-13;SP01;Brasília;2566;Ferroviário;36.3;1316.8;Entregue
+1185;Diego;2025-06-20;2025-06-23;2025-07-05;SP01;Fortaleza;992;Rodoviário;31.7;813.0;Atrasado
+1186;Luiz Miguel;2025-07-17;2025-07-19;2025-07-28;SP01;Fortaleza;2782;Rodoviário;45.0;1841.0;Atrasado
+1187;Maria Luiza;2025-07-27;2025-07-28;2025-08-05;SP01;Fortaleza;1660;Rodoviário;8.9;919.0;Atrasado
+1188;Caroline;2025-09-11;2025-09-14;2025-09-17;SP01;Manaus;1013;Rodoviário;14.9;655.5;Entregue
+1189;Lara;2025-07-14;2025-07-15;2025-07-26;SP01;Rio de Janeiro;1424;Rodoviário;31.7;1029.0;Atrasado
+1190;Gustavo;2025-07-24;2025-07-26;2025-07-28;RS04;Brasília;2096;Rodoviário;44.5;1493.0;Entregue
+1191;Kevin;2025-08-26;2025-08-29;2025-09-08;SP01;Brasília;2963;Ferroviário;42.7;1526.8;Atrasado
+1192;Thiago;2025-07-22;2025-07-23;;RS04;Brasília;2569;Rodoviário;44.7;1731.5;Em trânsito
+1193;Bianca;2025-07-12;2025-07-13;2025-07-22;MG03;Recife;525;Rodoviário;20.1;463.5;Atrasado
+1194;Maria;2025-08-18;2025-08-20;;RJ02;Curitiba;688;Rodoviário;5.3;397.0;Em trânsito
+1195;Natália;2025-06-20;2025-06-21;2025-06-22;SP01;São Paulo;459;Rodoviário;33.5;564.5;Entregue
+1196;Fernanda;2025-09-15;2025-09-16;2025-09-28;MG03;Recife;685;Rodoviário;42.8;770.5;Atrasado
+1197;Benjamin;2025-08-13;2025-08-16;;SP01;Salvador;1319;Rodoviário;39.7;1056.5;Em trânsito
+1198;Ian;2025-07-12;2025-07-15;2025-07-19;RJ02;São Paulo;985;Rodoviário;32.9;821.5;Entregue
+1199;Emanuelly;2025-08-31;2025-09-03;2025-09-15;RS04;Goiânia;862;Rodoviário;39.1;822.0;Atrasado
+1200;Clara;2025-08-23;2025-08-26;2025-08-27;RJ02;Belo Horizonte;2606;Ferroviário;25.1;1243.2;Entregue
+1201;Theo;2025-08-02;2025-08-04;2025-08-08;SP01;Belo Horizonte;2544;Aéreo;28.7;3118.0;Entregue
+1202;Clara;2025-06-20;2025-06-21;2025-06-25;RS04;Rio de Janeiro;1810;Ferroviário;34.5;1000.0;Entregue
+1203;Pedro;2025-07-06;2025-07-09;2025-07-21;RS04;Fortaleza;1088;Aéreo;23.9;1566.0;Atrasado
+1204;Francisco;2025-06-30;2025-07-03;;MG03;Vitória;1510;Rodoviário;19.4;949.0;Em trânsito
+1205;Ana Vitória;2025-07-11;2025-07-13;2025-07-18;MG03;São Paulo;892;Ferroviário;30.3;599.2;Entregue
+1206;Kevin;2025-08-09;2025-08-12;;RJ02;Vitória;1780;Rodoviário;11.9;1009.0;Em trânsito
+1207;Diego;2025-06-29;2025-07-02;2025-07-12;MG03;Belo Horizonte;448;Rodoviário;6.5;289.0;Atrasado
+1208;João Miguel;2025-08-15;2025-08-17;2025-08-23;MG03;Vitória;2881;Rodoviário;10.6;1546.5;Entregue
+1209;Ana Julia;2025-08-28;2025-08-29;2025-08-30;RS04;Salvador;1113;Rodoviário;31.6;872.5;Entregue
+1210;Isaac;2025-08-18;2025-08-21;;SP01;Fortaleza;373;Ferroviário;22.8;331.6;Em trânsito
+1211;Juan;2025-09-08;2025-09-11;2025-09-14;SP01;Vitória;2948;Aéreo;45.9;3866.0;Entregue
+1212;Luigi;2025-08-20;2025-08-23;2025-08-24;SP01;Goiânia;1795;Rodoviário;26.7;1164.5;Entregue
+1213;Valentina;2025-07-02;2025-07-03;2025-07-05;RS04;São Paulo;101;Rodoviário;44.7;497.5;Entregue
+1214;Francisco;2025-06-22;2025-06-24;2025-06-28;RJ02;Salvador;2341;Aéreo;14.0;2621.0;Entregue
+1215;Catarina;2025-06-27;2025-06-29;2025-07-07;RJ02;Recife;527;Rodoviário;33.6;599.5;Atrasado
+1216;Igor;2025-07-12;2025-07-15;2025-07-22;RJ02;Vitória;2370;Rodoviário;36.9;1554.0;Atrasado
+1217;Maria Sophia;2025-09-09;2025-09-11;2025-09-15;RJ02;Brasília;2530;Rodoviário;45.3;1718.0;Entregue
+1218;Gabrielly;2025-06-20;2025-06-22;2025-06-30;MG03;Belo Horizonte;908;Rodoviário;24.7;701.0;Atrasado
+1219;Carlos Eduardo;2025-07-10;2025-07-12;2025-07-16;SP01;Vitória;1424;Ferroviário;19.8;728.0;Entregue
+1220;Emanuelly;2025-06-18;2025-06-20;2025-06-25;MG03;Porto Alegre;794;Rodoviário;12.3;520.0;Entregue
+1221;Alana;2025-07-06;2025-07-08;2025-07-20;SP01;Fortaleza;1182;Ferroviário;14.0;584.8;Atrasado
+1222;Brenda;2025-06-30;2025-07-03;2025-07-09;MG03;São Paulo;1002;Rodoviário;44.1;942.0;Entregue
+1223;Natália;2025-07-07;2025-07-10;2025-07-14;SP01;Curitiba;2879;Rodoviário;49.4;1933.5;Entregue
+1224;Vitória;2025-08-11;2025-08-13;2025-08-27;SP01;Curitiba;1373;Ferroviário;26.9;764.4;Atrasado
+1225;Luiz Otávio;2025-09-10;2025-09-12;2025-09-16;RJ02;Recife;854;Rodoviário;46.1;888.0;Entregue
+1226;Isaac;2025-07-07;2025-07-10;2025-07-15;MG03;São Paulo;893;Ferroviário;45.9;724.4;Entregue
+1227;Gabriel;2025-09-10;2025-09-13;2025-09-19;RJ02;Rio de Janeiro;474;Rodoviário;8.1;318.0;Entregue
+1228;João Pedro;2025-08-11;2025-08-12;2025-08-16;SP01;Fortaleza;2378;Rodoviário;31.7;1506.0;Entregue
+1229;Augusto;2025-07-12;2025-07-14;2025-07-15;SP01;Goiânia;2213;Aéreo;5.4;2321.0;Entregue
+1230;Isis;2025-07-05;2025-07-06;2025-07-20;RS04;Recife;2434;Rodoviário;8.3;1300.0;Atrasado
+1231;Emanuelly;2025-08-15;2025-08-17;2025-08-22;RJ02;Goiânia;961;Rodoviário;25.2;732.5;Entregue
+1232;João Miguel;2025-07-14;2025-07-17;;SP01;Salvador;2103;Rodoviário;32.2;1373.5;Em trânsito
+1233;Maria;2025-06-23;2025-06-26;2025-07-01;SP01;São Paulo;1755;Ferroviário;31.3;952.4;Entregue
+1234;Camila;2025-09-05;2025-09-08;2025-09-11;SP01;Curitiba;2481;Rodoviário;28.9;1529.5;Entregue
+1235;Ana Sophia;2025-07-24;2025-07-26;2025-07-29;RJ02;Porto Alegre;1182;Rodoviário;27.8;869.0;Entregue
+1236;Letícia;2025-08-29;2025-08-31;2025-09-04;SP01;Rio de Janeiro;1339;Ferroviário;5.8;582.0;Entregue
+1237;Emilly;2025-06-20;2025-06-21;2025-06-22;MG03;Fortaleza;2642;Rodoviário;20.4;1525.0;Entregue
+1238;Isabella;2025-06-26;2025-06-28;2025-07-04;SP01;Curitiba;1459;Aéreo;38.0;2219.0;Entregue
+1239;Paulo;2025-07-16;2025-07-18;2025-07-23;RS04;Salvador;616;Aéreo;16.5;946.0;Entregue
+1240;Carolina;2025-09-15;2025-09-16;2025-09-24;MG03;Manaus;2261;Rodoviário;42.4;1554.5;Atrasado
+1241;Ana Beatriz;2025-08-18;2025-08-21;2025-08-25;MG03;Fortaleza;444;Ferroviário;35.4;460.8;Entregue
+1242;João Vitor;2025-07-19;2025-07-22;;RJ02;Porto Alegre;1427;Ferroviário;9.8;649.2;Em trânsito
+1243;Thiago;2025-07-18;2025-07-20;;RJ02;Vitória;1212;Aéreo;40.2;2016.0;Em trânsito
+1244;Isadora;2025-09-07;2025-09-08;2025-09-11;RS04;Rio de Janeiro;593;Aéreo;24.7;1087.0;Entregue
+1245;Evelyn;2025-08-03;2025-08-05;2025-08-12;MG03;Belo Horizonte;1488;Ferroviário;10.4;678.4;Atrasado
+1246;Luana;2025-06-26;2025-06-28;2025-07-03;MG03;São Paulo;810;Rodoviário;22.1;626.0;Entregue
+1247;Arthur;2025-07-05;2025-07-06;2025-07-07;RS04;São Paulo;2438;Rodoviário;8.3;1302.0;Entregue
+1248;Ana Julia;2025-06-24;2025-06-27;2025-07-03;RJ02;Rio de Janeiro;1126;Rodoviário;47.8;1041.0;Entregue
+1249;Ian;2025-09-06;2025-09-08;2025-09-13;SP01;Manaus;764;Rodoviário;22.9;611.0;Entregue
+1250;Laís;2025-08-23;2025-08-24;2025-08-28;MG03;Brasília;1043;Rodoviário;38.6;907.5;Entregue
+1251;Caio;2025-08-08;2025-08-11;2025-08-16;MG03;Brasília;1114;Aéreo;8.2;1278.0;Entregue
+1252;Maria Alice;2025-06-25;2025-06-28;2025-07-01;MG03;Curitiba;888;Rodoviário;13.8;582.0;Entregue
+1253;Emanuella;2025-07-02;2025-07-04;2025-07-09;RS04;Brasília;1792;Ferroviário;29.3;951.2;Entregue
+1254;Benjamin;2025-07-19;2025-07-21;2025-07-23;RJ02;São Paulo;2736;Rodoviário;10.5;1473.0;Entregue
+1255;Antônio;2025-08-27;2025-08-30;2025-09-03;RJ02;Recife;2306;Ferroviário;9.8;1000.8;Entregue
+1256;Ana Carolina;2025-09-06;2025-09-08;2025-09-12;RS04;Curitiba;1898;Ferroviário;21.8;933.6;Entregue
+1257;Marcelo;2025-07-19;2025-07-20;2025-07-23;SP01;Recife;1400;Aéreo;15.3;1706.0;Entregue
+1258;André;2025-07-23;2025-07-24;2025-07-26;SP01;Manaus;2731;Ferroviário;30.0;1332.4;Entregue
+1259;Rafael;2025-06-20;2025-06-23;2025-07-01;RS04;Belo Horizonte;245;Ferroviário;11.7;191.6;Atrasado
+1260;Pedro Henrique;2025-08-29;2025-09-01;2025-09-02;MG03;Goiânia;1349;Rodoviário;29.1;965.5;Entregue
+1261;Rebeca;2025-09-05;2025-09-07;2025-09-10;RS04;Recife;1646;Rodoviário;22.6;1049.0;Entregue
+1262;Raquel;2025-07-16;2025-07-17;2025-07-18;RJ02;Belo Horizonte;362;Ferroviário;23.2;330.4;Entregue
+1263;Marcela;2025-08-11;2025-08-13;2025-08-14;SP01;Brasília;1098;Rodoviário;41.8;967.0;Entregue
+1264;Rebeca;2025-07-10;2025-07-12;2025-07-17;RJ02;Curitiba;843;Ferroviário;31.8;591.6;Entregue
+1265;João Felipe;2025-06-28;2025-06-29;2025-07-02;RJ02;Vitória;807;Rodoviário;42.4;827.5;Entregue
+1266;Enrico;2025-08-03;2025-08-04;2025-08-09;RS04;Salvador;1835;Ferroviário;29.0;966.0;Entregue
+1267;Nina;2025-06-28;2025-06-29;2025-07-05;RJ02;Rio de Janeiro;2874;Rodoviário;21.3;1650.0;Entregue
+1268;Luiz Henrique;2025-09-08;2025-09-11;2025-09-23;RS04;Fortaleza;761;Rodoviário;48.1;861.5;Atrasado
+1269;Enrico;2025-08-20;2025-08-21;2025-08-22;MG03;Manaus;2593;Rodoviário;42.0;1716.5;Entregue
+1270;Emanuella;2025-09-04;2025-09-05;2025-09-09;MG03;Recife;447;Aéreo;5.9;565.0;Entregue
+1271;Brenda;2025-08-18;2025-08-19;2025-08-30;RS04;Salvador;2553;Rodoviário;39.0;1666.5;Atrasado
+1272;João Pedro;2025-09-09;2025-09-10;2025-09-14;RJ02;Curitiba;2885;Rodoviário;10.3;1545.5;Entregue
+1273;Vinicius;2025-08-16;2025-08-19;2025-08-21;SP01;Porto Alegre;2917;Aéreo;29.9;3515.0;Entregue
+1274;Luiz Miguel;2025-09-09;2025-09-12;2025-09-24;MG03;Manaus;410;Rodoviário;40.4;609.0;Atrasado
+1275;Emanuel;2025-07-31;2025-08-03;;SP01;Curitiba;589;Rodoviário;22.9;523.5;Em trânsito
+1276;Vitor;2025-07-26;2025-07-28;2025-08-06;RJ02;Fortaleza;1793;Ferroviário;11.4;808.4;Atrasado
+1277;Marcelo;2025-07-17;2025-07-20;2025-07-21;MG03;Porto Alegre;2725;Rodoviário;15.1;1513.5;Entregue
+1278;Evelyn;2025-07-23;2025-07-25;;RS04;Manaus;1660;Rodoviário;26.6;1096.0;Em trânsito
+1279;Sabrina;2025-08-19;2025-08-20;;RJ02;São Paulo;1233;Aéreo;42.3;2079.0;Em trânsito
+1280;Kevin;2025-06-20;2025-06-23;;RJ02;Vitória;1776;Rodoviário;8.1;969.0;Em trânsito
+1281;Agatha;2025-07-28;2025-07-30;2025-08-03;SP01;Goiânia;227;Rodoviário;19.0;303.5;Entregue
+1282;Alexandre;2025-07-23;2025-07-25;2025-08-05;RS04;Salvador;2819;Rodoviário;32.9;1738.5;Atrasado
+1283;Alice;2025-07-12;2025-07-15;2025-07-18;SP01;Belo Horizonte;2053;Rodoviário;7.6;1102.5;Entregue
+1284;Mirella;2025-08-10;2025-08-13;2025-08-26;RS04;Vitória;1082;Rodoviário;11.4;655.0;Atrasado
+1285;Enzo Gabriel;2025-08-04;2025-08-05;2025-08-17;MG03;Recife;499;Rodoviário;27.9;528.5;Atrasado
+1286;Danilo;2025-07-17;2025-07-20;2025-07-25;MG03;Goiânia;919;Rodoviário;34.5;804.5;Entregue
+1287;Luiz Gustavo;2025-08-27;2025-08-29;2025-09-03;RS04;Belo Horizonte;2666;Rodoviário;26.7;1600.0;Entregue
+1288;Amanda;2025-08-09;2025-08-12;2025-08-24;SP01;Recife;485;Rodoviário;23.8;480.5;Atrasado
+1289;Emanuella;2025-07-31;2025-08-02;2025-08-04;MG03;Manaus;2011;Rodoviário;14.7;1152.5;Entregue
+1290;Sophia;2025-08-03;2025-08-04;2025-08-15;SP01;Porto Alegre;2485;Rodoviário;6.9;1311.5;Atrasado
+1291;Lorenzo;2025-07-08;2025-07-09;2025-07-13;MG03;Porto Alegre;2455;Rodoviário;11.7;1344.5;Entregue
+1292;Sophie;2025-08-05;2025-08-07;2025-08-11;RS04;Goiânia;693;Rodoviário;21.9;565.5;Entregue
+1293;Marcelo;2025-09-15;2025-09-16;2025-09-21;RJ02;São Paulo;204;Rodoviário;34.6;448.0;Entregue
+1294;Heitor;2025-07-17;2025-07-18;2025-07-22;RS04;São Paulo;341;Rodoviário;45.6;626.5;Entregue
+1295;Davi Lucca;2025-07-24;2025-07-25;2025-08-07;RJ02;Fortaleza;2873;Ferroviário;32.6;1410.0;Atrasado
+1296;Isadora;2025-07-04;2025-07-07;2025-07-10;SP01;Goiânia;2596;Rodoviário;7.2;1370.0;Entregue
+1297;Emanuella;2025-07-19;2025-07-20;2025-07-27;SP01;Belo Horizonte;507;Rodoviário;6.6;319.5;Atrasado
+1298;Yasmin;2025-08-18;2025-08-19;2025-08-25;RS04;Brasília;535;Ferroviário;34.8;492.4;Entregue
+1299;Pietra;2025-08-03;2025-08-06;2025-08-11;SP01;Salvador;2667;Rodoviário;5.9;1392.5;Entregue
+1300;Levi;2025-07-14;2025-07-15;2025-07-16;SP01;Rio de Janeiro;2610;Rodoviário;10.5;1410.0;Entregue
+1301;Lucas;2025-07-16;2025-07-18;2025-07-19;SP01;Vitória;477;Rodoviário;45.3;691.5;Entregue
+1302;Samuel;2025-08-22;2025-08-24;2025-09-03;MG03;Fortaleza;869;Ferroviário;31.2;597.2;Atrasado
+1303;Maitê;2025-08-11;2025-08-14;2025-08-18;RJ02;Brasília;621;Rodoviário;46.8;778.5;Entregue
+1304;Agatha;2025-08-19;2025-08-22;2025-08-25;RJ02;Goiânia;2937;Rodoviário;46.8;1936.5;Entregue
+1305;Maria Luiza;2025-08-20;2025-08-23;2025-09-06;SP01;Belo Horizonte;2269;Ferroviário;43.8;1258.0;Atrasado
+1306;Luiz Otávio;2025-06-26;2025-06-27;2025-06-29;SP01;Porto Alegre;2027;Ferroviário;30.1;1051.6;Entregue
+1307;Davi Lucca;2025-07-24;2025-07-27;2025-07-30;RS04;Salvador;761;Aéreo;47.2;1705.0;Entregue
+1308;João Gabriel;2025-09-09;2025-09-10;2025-09-18;SP01;Porto Alegre;562;Rodoviário;48.4;765.0;Atrasado
+1309;Mariana;2025-08-11;2025-08-14;2025-08-18;SP01;Salvador;2568;Rodoviário;27.9;1563.0;Entregue
+1310;Murilo;2025-08-11;2025-08-14;2025-08-19;RJ02;Recife;2255;Ferroviário;39.3;1216.4;Entregue
+1311;Diogo;2025-09-11;2025-09-14;2025-09-16;RS04;Fortaleza;2276;Ferroviário;44.7;1268.0;Entregue
+1312;Thiago;2025-06-27;2025-06-30;2025-07-02;RJ02;Brasília;2620;Rodoviário;38.0;1690.0;Entregue
+1313;Ana;2025-07-19;2025-07-22;2025-07-24;SP01;Vitória;2647;Rodoviário;43.2;1755.5;Entregue
+1314;Pietro;2025-07-25;2025-07-27;2025-07-28;RJ02;Vitória;2734;Ferroviário;42.9;1436.8;Entregue
+1315;Valentina;2025-07-03;2025-07-05;2025-07-16;RJ02;Curitiba;1504;Ferroviário;40.1;922.4;Atrasado
+1316;Raquel;2025-07-21;2025-07-23;2025-07-28;RJ02;Porto Alegre;921;Ferroviário;5.1;409.2;Entregue
+1317;Davi Lucca;2025-06-29;2025-07-01;2025-07-05;SP01;Curitiba;2420;Rodoviário;26.6;1476.0;Entregue
+1318;Luigi;2025-06-22;2025-06-24;2025-07-05;RS04;Manaus;1178;Ferroviário;7.4;530.4;Atrasado
+1319;Ana Clara;2025-09-13;2025-09-15;2025-09-18;MG03;Goiânia;159;Rodoviário;33.6;415.5;Entregue
+1320;Ian;2025-07-01;2025-07-04;2025-07-09;RS04;Manaus;1097;Rodoviário;42.1;969.5;Entregue
+1321;Maria Fernanda;2025-09-04;2025-09-07;2025-09-11;RJ02;Recife;2260;Rodoviário;9.0;1220.0;Entregue
+1322;Alexandre;2025-08-20;2025-08-21;2025-08-24;MG03;Brasília;1119;Rodoviário;12.8;687.5;Entregue
+1323;Breno;2025-08-15;2025-08-17;2025-08-20;MG03;Salvador;1682;Ferroviário;22.3;851.2;Entregue
+1324;Vinicius;2025-09-12;2025-09-13;;SP01;Vitória;599;Rodoviário;20.1;500.5;Em trânsito
+1325;Isis;2025-07-27;2025-07-28;2025-08-09;RJ02;Salvador;2128;Ferroviário;46.8;1225.6;Atrasado
+1326;Stephany;2025-09-06;2025-09-09;;RJ02;Belo Horizonte;1021;Aéreo;42.9;1879.0;Em trânsito
+1327;Bernardo;2025-08-09;2025-08-10;2025-08-15;RJ02;Porto Alegre;2503;Rodoviário;8.6;1337.5;Entregue
+1328;Vinicius;2025-06-20;2025-06-23;;MG03;São Paulo;2939;Ferroviário;39.4;1490.8;Em trânsito
+1329;João Lucas;2025-06-19;2025-06-21;2025-06-25;RS04;Vitória;1719;Ferroviário;48.0;1071.6;Entregue
+1330;Luana;2025-06-18;2025-06-20;2025-06-22;RJ02;Salvador;1343;Rodoviário;17.4;845.5;Entregue
+1331;Daniela;2025-08-06;2025-08-08;2025-08-14;MG03;Manaus;304;Rodoviário;12.0;272.0;Entregue
+1332;Carlos Eduardo;2025-08-12;2025-08-15;2025-08-17;MG03;Vitória;2343;Rodoviário;39.7;1568.5;Entregue
+1333;Marcelo;2025-07-23;2025-07-25;2025-08-02;RS04;Fortaleza;1271;Rodoviário;44.7;1082.5;Atrasado
+1334;Alice;2025-07-07;2025-07-08;2025-07-12;RS04;Vitória;264;Aéreo;16.5;594.0;Entregue
+1335;Cauã;2025-08-11;2025-08-14;2025-08-25;RS04;São Paulo;2038;Rodoviário;47.6;1495.0;Atrasado
+1336;Vinicius;2025-08-26;2025-08-27;2025-08-28;RJ02;Porto Alegre;994;Rodoviário;43.3;930.0;Entregue
+1337;Levi;2025-07-18;2025-07-21;2025-07-26;SP01;Rio de Janeiro;2175;Ferroviário;8.0;934.0;Entregue
+1338;João Pedro;2025-08-05;2025-08-07;2025-08-09;RJ02;Salvador;2757;Rodoviário;12.5;1503.5;Entregue
+1339;Enrico;2025-08-07;2025-08-09;2025-08-10;RJ02;Manaus;197;Aéreo;25.7;711.0;Entregue
+1340;Diogo;2025-08-05;2025-08-08;2025-08-14;RS04;Brasília;710;Rodoviário;40.4;759.0;Entregue
+1341;Felipe;2025-06-20;2025-06-23;2025-07-01;MG03;Curitiba;2001;Ferroviário;5.8;846.8;Atrasado
+1342;Raquel;2025-08-11;2025-08-12;2025-08-16;RS04;Brasília;2827;Aéreo;39.7;3621.0;Entregue
+1343;Luiz Felipe;2025-08-25;2025-08-28;2025-09-03;MG03;Fortaleza;1167;Rodoviário;27.4;857.5;Entregue
+1344;Lorena;2025-08-01;2025-08-03;2025-08-04;MG03;Rio de Janeiro;1550;Ferroviário;48.4;1007.2;Entregue
+1345;Olivia;2025-07-15;2025-07-17;2025-07-21;RS04;Vitória;2311;Rodoviário;19.1;1346.5;Entregue
+1346;Lorenzo;2025-07-12;2025-07-13;2025-07-19;RS04;Rio de Janeiro;2701;Rodoviário;30.1;1651.5;Entregue
+1347;Davi Luiz;2025-07-07;2025-07-09;2025-07-12;SP01;Belo Horizonte;382;Rodoviário;49.3;684.0;Entregue
+1348;Gustavo;2025-09-05;2025-09-06;2025-09-11;RS04;Goiânia;787;Rodoviário;24.8;641.5;Entregue
+1349;Laís;2025-08-10;2025-08-12;;MG03;Vitória;1647;Ferroviário;19.4;814.0;Em trânsito
+1350;Enrico;2025-08-29;2025-08-30;2025-09-04;SP01;Rio de Janeiro;1383;Aéreo;49.1;2365.0;Entregue
+1351;Yasmin;2025-08-26;2025-08-29;2025-09-01;SP01;Vitória;2278;Rodoviário;37.4;1513.0;Entregue
+1352;Heitor;2025-08-04;2025-08-06;2025-08-12;SP01;Belo Horizonte;2848;Rodoviário;18.3;1607.0;Entregue
+1353;Rafaela;2025-08-07;2025-08-09;2025-08-12;RS04;Goiânia;1518;Aéreo;34.3;2204.0;Entregue
+1354;Agatha;2025-07-18;2025-07-19;2025-07-21;RJ02;Belo Horizonte;687;Rodoviário;12.8;471.5;Entregue
+1355;Maria Julia;2025-08-05;2025-08-06;2025-08-08;RJ02;São Paulo;1080;Rodoviário;45.7;997.0;Entregue
+1356;Ian;2025-08-17;2025-08-20;2025-08-22;MG03;Vitória;2426;Ferroviário;20.9;1137.6;Entregue
+1357;Giovanna;2025-08-08;2025-08-09;2025-08-21;MG03;Brasília;1030;Rodoviário;38.3;898.0;Atrasado
+1358;Ana Sophia;2025-06-20;2025-06-22;2025-06-26;MG03;Recife;2601;Aéreo;15.2;2905.0;Entregue
+1359;Igor;2025-07-29;2025-08-01;2025-08-04;RS04;Manaus;2044;Rodoviário;21.2;1234.0;Entregue
+1360;Isabel;2025-08-18;2025-08-19;2025-08-24;SP01;Curitiba;2119;Aéreo;39.5;2909.0;Entregue
+1361;Emanuel;2025-09-11;2025-09-14;2025-09-16;MG03;São Paulo;745;Ferroviário;30.2;539.6;Entregue
+1362;Davi Lucas;2025-09-14;2025-09-17;2025-09-23;RJ02;Curitiba;600;Rodoviário;22.1;521.0;Entregue
+1363;Isaac;2025-07-24;2025-07-26;2025-08-04;RS04;São Paulo;380;Rodoviário;6.2;252.0;Atrasado
+1364;Maria Clara;2025-09-10;2025-09-12;2025-09-13;MG03;Belo Horizonte;1549;Ferroviário;42.8;962.0;Entregue
+1365;Julia;2025-07-23;2025-07-24;;MG03;Vitória;2910;Ferroviário;29.0;1396.0;Em trânsito
+1366;Cecília;2025-06-27;2025-06-30;2025-07-12;RS04;Salvador;1560;Rodoviário;9.3;873.0;Atrasado
+1367;Alice;2025-08-24;2025-08-26;2025-08-27;RS04;Curitiba;2236;Ferroviário;8.3;960.8;Entregue
+1368;Daniela;2025-09-15;2025-09-16;2025-09-22;SP01;Curitiba;167;Aéreo;44.5;1057.0;Entregue
+1369;Melissa;2025-06-24;2025-06-25;2025-06-26;RS04;Recife;2624;Ferroviário;17.8;1192.0;Entregue
+1370;Gabrielly;2025-08-05;2025-08-08;2025-08-14;RJ02;Porto Alegre;1890;Ferroviário;16.4;887.2;Entregue
+1371;Heitor;2025-08-12;2025-08-13;2025-08-14;SP01;Vitória;2028;Ferroviário;42.3;1149.6;Entregue
+1372;Kamilly;2025-06-19;2025-06-20;2025-06-24;RJ02;Goiânia;2321;Ferroviário;32.1;1185.2;Entregue
+1373;Larissa;2025-07-29;2025-07-31;2025-08-06;RS04;Porto Alegre;1673;Rodoviário;36.6;1202.5;Entregue
+1374;Kevin;2025-08-04;2025-08-07;2025-08-11;RS04;Salvador;2223;Rodoviário;34.4;1455.5;Entregue
+1375;Mariane;2025-08-30;2025-09-01;2025-09-04;MG03;Vitória;1892;Rodoviário;23.3;1179.0;Entregue
+1376;Heitor;2025-07-16;2025-07-18;2025-07-19;SP01;Goiânia;361;Rodoviário;11.3;293.5;Entregue
+1377;Mirella;2025-06-26;2025-06-28;;SP01;São Paulo;966;Rodoviário;32.5;808.0;Em trânsito
+1378;Stephany;2025-08-22;2025-08-23;2025-08-24;SP01;Salvador;2196;Rodoviário;14.9;1247.0;Entregue
+1379;Carolina;2025-07-16;2025-07-19;2025-07-26;RJ02;Recife;440;Rodoviário;14.8;368.0;Atrasado
+1380;Lorena;2025-06-20;2025-06-22;2025-06-28;SP01;Vitória;1467;Rodoviário;32.8;1061.5;Entregue
+1381;Fernando;2025-08-02;2025-08-03;2025-08-04;MG03;Brasília;1617;Aéreo;10.9;1835.0;Entregue
+1382;Diego;2025-06-28;2025-06-30;2025-07-04;MG03;Goiânia;683;Aéreo;37.1;1425.0;Entregue
+1383;Augusto;2025-08-23;2025-08-24;2025-08-29;RJ02;Recife;1087;Ferroviário;5.1;475.6;Entregue
+1384;Laura;2025-08-25;2025-08-28;2025-09-03;SP01;Recife;1810;Aéreo;16.6;2142.0;Entregue
+1385;Ana Beatriz;2025-08-23;2025-08-25;2025-09-04;RJ02;Porto Alegre;1874;Rodoviário;38.8;1325.0;Atrasado
+1386;Bruna;2025-09-05;2025-09-06;2025-09-09;MG03;Vitória;1893;Ferroviário;35.5;1041.2;Entregue
+1387;Maysa;2025-06-19;2025-06-21;2025-07-02;RJ02;Rio de Janeiro;662;Aéreo;32.6;1314.0;Atrasado
+1388;Enrico;2025-08-07;2025-08-10;2025-08-19;SP01;Rio de Janeiro;1728;Rodoviário;29.0;1154.0;Atrasado
+1389;Raquel;2025-07-21;2025-07-23;2025-07-29;RS04;Belo Horizonte;2382;Rodoviário;31.0;1501.0;Entregue
+1390;Bernardo;2025-08-10;2025-08-12;;RJ02;São Paulo;1250;Rodoviário;37.8;1003.0;Em trânsito
+1391;Guilherme;2025-07-22;2025-07-23;2025-07-28;RJ02;Brasília;1781;Rodoviário;8.5;975.5;Entregue
+1392;Eduarda;2025-06-30;2025-07-01;2025-07-03;RJ02;Goiânia;1989;Rodoviário;25.3;1247.5;Entregue
+1393;Eduardo;2025-06-22;2025-06-25;2025-07-08;RS04;Brasília;2707;Rodoviário;21.7;1570.5;Atrasado
+1394;Lucas Gabriel;2025-07-10;2025-07-12;2025-07-19;RS04;Recife;2587;Rodoviário;34.1;1634.5;Atrasado
+1395;Yuri;2025-08-03;2025-08-04;2025-08-11;MG03;Curitiba;1910;Rodoviário;34.1;1296.0;Atrasado
+1396;Evelyn;2025-07-10;2025-07-13;2025-07-16;RJ02;Brasília;916;Rodoviário;43.1;889.0;Entregue
+1397;João Guilherme;2025-08-06;2025-08-08;2025-08-22;RS04;Salvador;932;Rodoviário;12.5;591.0;Atrasado
+1398;Brenda;2025-08-05;2025-08-07;2025-08-10;MG03;Brasília;656;Rodoviário;6.8;396.0;Entregue
+1399;Nicole;2025-08-15;2025-08-17;;MG03;Manaus;1941;Rodoviário;11.6;1086.5;Em trânsito
+1400;João Guilherme;2025-07-22;2025-07-23;2025-07-28;RJ02;Porto Alegre;2317;Rodoviário;26.3;1421.5;Entregue
+1401;Vitor Gabriel;2025-06-27;2025-06-29;2025-07-03;SP01;São Paulo;896;Rodoviário;48.3;931.0;Entregue
+1402;Fernando;2025-08-12;2025-08-13;2025-08-19;RS04;Porto Alegre;2452;Rodoviário;12.6;1352.0;Entregue
+1403;Mariane;2025-07-12;2025-07-13;2025-07-22;MG03;Manaus;1477;Rodoviário;13.8;876.5;Atrasado
+1404;João Miguel;2025-06-28;2025-06-29;2025-07-03;SP01;Goiânia;238;Rodoviário;20.6;325.0;Entregue
+1405;Heitor;2025-07-27;2025-07-30;2025-08-02;SP01;Rio de Janeiro;2286;Rodoviário;40.2;1545.0;Entregue
+1406;Emanuel;2025-07-02;2025-07-05;2025-07-19;RJ02;Vitória;2909;Rodoviário;37.9;1833.5;Atrasado
+1407;Natália;2025-07-01;2025-07-02;2025-07-06;RJ02;Belo Horizonte;2146;Aéreo;45.9;3064.0;Entregue
+1408;Pietra;2025-07-22;2025-07-25;2025-07-29;RJ02;Porto Alegre;2542;Rodoviário;7.6;1347.0;Entregue
+1409;Francisco;2025-08-17;2025-08-18;2025-08-28;RJ02;São Paulo;982;Rodoviário;49.1;982.0;Atrasado
+1410;Maitê;2025-08-06;2025-08-08;2025-08-10;RS04;Salvador;1710;Rodoviário;39.3;1248.0;Entregue
+1411;Bárbara;2025-07-09;2025-07-12;2025-07-13;MG03;Rio de Janeiro;1814;Aéreo;25.5;2324.0;Entregue
+1412;Ana Laura;2025-07-10;2025-07-13;2025-07-17;MG03;Belo Horizonte;2658;Rodoviário;43.4;1763.0;Entregue
+1413;Natália;2025-09-02;2025-09-03;2025-09-04;RS04;Fortaleza;2294;Rodoviário;16.5;1312.0;Entregue
+1414;Luiz Felipe;2025-08-28;2025-08-29;2025-09-04;SP01;Recife;2867;Ferroviário;46.8;1521.2;Entregue
+1415;Maria Fernanda;2025-07-01;2025-07-03;2025-07-15;RJ02;Manaus;2467;Rodoviário;21.1;1444.5;Atrasado
+1416;Helena;2025-09-03;2025-09-05;2025-09-08;RS04;Vitória;118;Rodoviário;49.8;557.0;Entregue
+1417;Maria Alice;2025-08-09;2025-08-12;2025-08-15;SP01;Curitiba;124;Ferroviário;8.1;114.4;Entregue
+1418;Enzo Gabriel;2025-07-23;2025-07-24;2025-08-04;RS04;Vitória;356;Ferroviário;32.6;403.2;Atrasado
+1419;Luna;2025-09-05;2025-09-08;2025-09-14;RJ02;Curitiba;513;Rodoviário;18.8;444.5;Entregue
+1420;Rafaela;2025-08-01;2025-08-04;2025-08-09;SP01;Rio de Janeiro;2192;Aéreo;28.5;2762.0;Entregue
+1421;João Vitor;2025-07-10;2025-07-12;2025-07-14;RJ02;Goiânia;2469;Rodoviário;23.1;1465.5;Entregue
+1422;João Lucas;2025-06-24;2025-06-27;2025-06-29;MG03;Belo Horizonte;1338;Aéreo;23.2;1802.0;Entregue
+1423;Calebe;2025-09-04;2025-09-07;2025-09-12;MG03;São Paulo;1793;Aéreo;32.2;2437.0;Entregue
+1424;Isabella;2025-08-13;2025-08-14;2025-08-15;RJ02;São Paulo;282;Rodoviário;25.2;393.0;Entregue
+1425;Evelyn;2025-07-28;2025-07-30;2025-08-11;RS04;Curitiba;259;Rodoviário;25.8;387.5;Atrasado
+1426;Levi;2025-07-14;2025-07-16;2025-07-30;MG03;Salvador;1153;Rodoviário;11.4;690.5;Atrasado
+1427;Pedro Lucas;2025-09-08;2025-09-11;2025-09-21;MG03;Rio de Janeiro;949;Ferroviário;37.5;679.6;Atrasado
+1428;Vicente;2025-08-18;2025-08-19;2025-09-01;SP01;São Paulo;1984;Rodoviário;17.4;1166.0;Atrasado
+1429;Igor;2025-09-08;2025-09-10;2025-09-24;RJ02;Fortaleza;2060;Rodoviário;47.3;1503.0;Atrasado
+1430;Mirella;2025-07-20;2025-07-21;;SP01;São Paulo;1742;Rodoviário;42.9;1300.0;Em trânsito
+1431;Davi Lucca;2025-08-18;2025-08-20;2025-08-31;MG03;São Paulo;297;Rodoviário;48.4;632.5;Atrasado
+1432;Marina;2025-07-12;2025-07-13;2025-07-15;SP01;São Paulo;2110;Ferroviário;35.4;1127.2;Entregue
+1433;Augusto;2025-09-15;2025-09-18;2025-09-23;MG03;Porto Alegre;1028;Rodoviário;10.8;622.0;Entregue
+1434;Júlia;2025-06-28;2025-07-01;;SP01;Porto Alegre;1846;Ferroviário;7.2;796.0;Em trânsito
+1435;Ana Carolina;2025-07-14;2025-07-15;2025-07-19;RS04;Vitória;1478;Rodoviário;14.4;883.0;Entregue
+1436;Mirella;2025-08-04;2025-08-06;2025-08-13;RS04;Recife;1136;Rodoviário;42.0;988.0;Atrasado
+1437;Nicolas;2025-07-30;2025-08-02;2025-08-09;SP01;Salvador;1582;Ferroviário;34.1;905.6;Atrasado
+1438;Luigi;2025-07-29;2025-07-30;2025-08-10;RJ02;Vitória;1851;Aéreo;10.7;2065.0;Atrasado
+1439;Maysa;2025-07-29;2025-08-01;2025-08-05;RS04;Porto Alegre;639;Ferroviário;14.0;367.6;Entregue
+1440;Thales;2025-07-21;2025-07-22;2025-07-25;SP01;Vitória;2196;Rodoviário;28.2;1380.0;Entregue
+1441;Maria Sophia;2025-08-11;2025-08-14;2025-08-26;SP01;Porto Alegre;1915;Ferroviário;36.9;1061.2;Atrasado
+1442;André;2025-07-25;2025-07-27;2025-07-28;MG03;Salvador;2164;Aéreo;17.0;2504.0;Entregue
+1443;Matheus;2025-07-20;2025-07-21;2025-07-25;RJ02;Goiânia;2377;Ferroviário;25.5;1154.8;Entregue
+1444;Esther;2025-06-21;2025-06-24;2025-06-28;RJ02;Goiânia;1805;Ferroviário;41.3;1052.4;Entregue
+1445;Maria Julia;2025-09-13;2025-09-15;2025-09-20;SP01;São Paulo;2202;Rodoviário;20.7;1308.0;Entregue
+1446;Joaquim;2025-08-20;2025-08-22;2025-08-25;SP01;Curitiba;1072;Aéreo;43.1;1934.0;Entregue
+1447;Pedro;2025-09-12;2025-09-13;2025-09-14;MG03;Vitória;1579;Rodoviário;11.9;908.5;Entregue
+1448;Maria Vitória;2025-06-21;2025-06-24;2025-07-05;RJ02;Rio de Janeiro;2559;Rodoviário;7.7;1356.5;Atrasado
+1449;Luana;2025-08-06;2025-08-08;2025-08-09;MG03;Porto Alegre;1947;Aéreo;29.5;2537.0;Entregue
+1450;Helena;2025-09-09;2025-09-12;2025-09-18;SP01;São Paulo;1694;Ferroviário;32.9;940.8;Entregue
+1451;Thales;2025-07-16;2025-07-17;2025-07-19;MG03;Belo Horizonte;2414;Aéreo;28.7;2988.0;Entregue
+1452;Larissa;2025-09-12;2025-09-15;2025-09-18;MG03;São Paulo;1172;Aéreo;20.2;1576.0;Entregue
+1453;Fernando;2025-08-21;2025-08-23;2025-08-24;RJ02;Rio de Janeiro;2941;Rodoviário;5.4;1524.5;Entregue
+1454;Fernanda;2025-09-15;2025-09-16;2025-09-22;SP01;Rio de Janeiro;2569;Rodoviário;15.9;1443.5;Entregue
+1455;Eduarda;2025-08-03;2025-08-04;;RJ02;Porto Alegre;2745;Ferroviário;29.6;1334.8;Em trânsito
+1456;Luiz Fernando;2025-08-27;2025-08-29;2025-09-04;MG03;Salvador;1216;Rodoviário;45.4;1062.0;Entregue
+1457;Maitê;2025-06-23;2025-06-24;2025-06-27;SP01;Rio de Janeiro;1646;Rodoviário;34.7;1170.0;Entregue
+1458;Camila;2025-07-20;2025-07-21;2025-07-24;RS04;Fortaleza;1955;Aéreo;28.5;2525.0;Entregue
+1459;Sarah;2025-07-08;2025-07-11;2025-07-13;MG03;Recife;2458;Rodoviário;5.6;1285.0;Entregue
+1460;Heloísa;2025-07-17;2025-07-19;2025-07-22;SP01;Brasília;2272;Aéreo;48.2;3236.0;Entregue
+1461;João Felipe;2025-06-25;2025-06-26;;RJ02;Recife;619;Rodoviário;26.5;574.5;Em trânsito
+1462;Ana Carolina;2025-08-09;2025-08-12;2025-08-15;MG03;São Paulo;286;Aéreo;39.4;1074.0;Entregue
+1463;Marcela;2025-06-21;2025-06-22;2025-06-23;SP01;Manaus;1736;Rodoviário;29.8;1166.0;Entregue
+1464;Maria Fernanda;2025-09-02;2025-09-05;2025-09-07;RS04;Fortaleza;2469;Rodoviário;41.4;1648.5;Entregue
+1465;Isabelly;2025-08-09;2025-08-11;2025-08-12;SP01;Belo Horizonte;1776;Rodoviário;45.6;1344.0;Entregue
+1466;Samuel;2025-07-14;2025-07-16;2025-07-19;RJ02;Belo Horizonte;2276;Rodoviário;39.2;1530.0;Entregue
+1467;Gabriela;2025-07-15;2025-07-16;2025-07-20;SP01;Belo Horizonte;2865;Ferroviário;49.7;1543.6;Entregue
+1468;Ana Julia;2025-06-25;2025-06-26;2025-06-29;RJ02;Curitiba;2261;Aéreo;44.5;3151.0;Entregue
+1469;Guilherme;2025-07-10;2025-07-13;2025-07-16;SP01;Vitória;2024;Rodoviário;12.9;1141.0;Entregue
+1470;Ana Carolina;2025-09-03;2025-09-05;2025-09-06;SP01;Curitiba;808;Ferroviário;30.3;565.6;Entregue
+1471;Mariana;2025-08-21;2025-08-22;2025-08-24;MG03;Belo Horizonte;1232;Rodoviário;45.2;1068.0;Entregue
+1472;Benício;2025-06-29;2025-07-02;2025-07-13;SP01;Curitiba;2938;Rodoviário;27.4;1743.0;Atrasado
+1473;Maria Eduarda;2025-08-22;2025-08-23;2025-08-24;RS04;Belo Horizonte;211;Aéreo;14.3;497.0;Entregue
+1474;Pietra;2025-08-24;2025-08-25;2025-08-27;MG03;Belo Horizonte;2568;Rodoviário;9.3;1377.0;Entregue
+1475;Rebeca;2025-09-03;2025-09-06;2025-09-17;RS04;Rio de Janeiro;2112;Ferroviário;34.5;1120.8;Atrasado
+1476;Gabriela;2025-08-28;2025-08-31;2025-09-01;MG03;Porto Alegre;2775;Rodoviário;6.7;1454.5;Entregue
+1477;Isabella;2025-06-18;2025-06-20;2025-06-21;SP01;Vitória;799;Rodoviário;7.5;474.5;Entregue
+1478;João Guilherme;2025-07-27;2025-07-29;2025-08-04;SP01;Curitiba;1638;Aéreo;7.3;1784.0;Entregue
+1479;João Lucas;2025-08-22;2025-08-24;2025-09-03;MG03;Vitória;2088;Ferroviário;32.4;1094.4;Atrasado
+1480;Enzo Gabriel;2025-09-02;2025-09-04;2025-09-05;RS04;Brasília;305;Rodoviário;20.2;354.5;Entregue
+1481;João Felipe;2025-06-26;2025-06-29;2025-07-12;RS04;Fortaleza;1145;Rodoviário;31.6;888.5;Atrasado
+1482;Davi Lucca;2025-08-19;2025-08-20;2025-08-22;RJ02;Brasília;2309;Ferroviário;31.3;1174.0;Entregue
+1483;Renan;2025-08-12;2025-08-15;2025-08-21;SP01;São Paulo;1683;Rodoviário;37.1;1212.5;Entregue
+1484;Júlia;2025-07-25;2025-07-26;2025-07-27;SP01;Vitória;2710;Rodoviário;47.0;1825.0;Entregue
+1485;Pedro Miguel;2025-08-08;2025-08-10;2025-08-13;RJ02;São Paulo;1106;Ferroviário;37.8;744.8;Entregue
+1486;Sabrina;2025-09-11;2025-09-13;2025-09-15;MG03;Vitória;2624;Rodoviário;14.6;1458.0;Entregue
+1487;Erick;2025-08-29;2025-08-30;2025-09-12;SP01;Goiânia;2003;Rodoviário;47.6;1477.5;Atrasado
+1488;Maria Eduarda;2025-09-08;2025-09-09;2025-09-11;MG03;Curitiba;1667;Rodoviário;45.8;1291.5;Entregue
+1489;Maria Vitória;2025-07-01;2025-07-02;2025-07-06;MG03;Fortaleza;177;Ferroviário;48.7;460.4;Entregue
+1490;Henrique;2025-06-25;2025-06-26;2025-06-29;SP01;Belo Horizonte;1001;Rodoviário;48.5;985.5;Entregue
+1491;Lucas;2025-06-30;2025-07-03;2025-07-08;MG03;Salvador;1099;Rodoviário;41.0;959.5;Entregue
+1492;Sophia;2025-06-30;2025-07-03;;RS04;Brasília;1581;Ferroviário;35.5;916.4;Em trânsito
+1493;Luiz Fernando;2025-08-03;2025-08-06;2025-08-12;MG03;Vitória;939;Rodoviário;33.1;800.5;Entregue
+1494;Davi Lucca;2025-08-18;2025-08-21;2025-09-03;MG03;Belo Horizonte;1333;Rodoviário;12.3;789.5;Atrasado
+1495;Lorenzo;2025-07-19;2025-07-20;2025-07-26;SP01;Brasília;2024;Rodoviário;33.0;1342.0;Entregue
+1496;Alícia;2025-06-23;2025-06-24;2025-06-28;RJ02;Porto Alegre;2265;Rodoviário;21.0;1342.5;Entregue
+1497;Breno;2025-08-15;2025-08-17;2025-08-20;RJ02;Porto Alegre;1573;Rodoviário;22.2;1008.5;Entregue
+1498;Bruno;2025-07-22;2025-07-23;2025-07-29;MG03;Recife;1649;Ferroviário;40.3;982.0;Entregue
+1499;Breno;2025-08-01;2025-08-02;2025-08-07;RS04;Rio de Janeiro;2978;Rodoviário;49.1;1980.0;Entregue
+1500;Ana Luiza;2025-09-01;2025-09-03;2025-09-05;SP01;Rio de Janeiro;617;Rodoviário;49.1;799.5;Entregue
+1501;Davi Lucas;2025-08-26;2025-08-27;2025-09-04;RS04;Vitória;2068;Rodoviário;22.9;1263.0;Atrasado
+1502;Rafael;2025-08-07;2025-08-10;2025-08-12;SP01;Belo Horizonte;307;Ferroviário;29.7;360.4;Entregue
+1503;Lucas Gabriel;2025-07-18;2025-07-20;;MG03;Recife;318;Rodoviário;47.8;637.0;Em trânsito
+1504;Emanuel;2025-06-21;2025-06-24;2025-06-28;RS04;Belo Horizonte;695;Rodoviário;29.9;646.5;Entregue
+1505;Isaac;2025-08-12;2025-08-13;2025-08-16;RJ02;Brasília;172;Ferroviário;32.5;328.8;Entregue
+1506;Brenda;2025-07-17;2025-07-18;2025-07-21;RS04;Rio de Janeiro;512;Rodoviário;10.3;359.0;Entregue
+1507;Stella;2025-09-01;2025-09-02;2025-09-05;RJ02;Belo Horizonte;659;Rodoviário;39.8;727.5;Entregue
+1508;João Felipe;2025-07-02;2025-07-04;2025-07-09;RS04;São Paulo;400;Rodoviário;16.4;364.0;Entregue
+1509;Alexandre;2025-07-29;2025-08-01;;RS04;Vitória;2193;Rodoviário;35.3;1449.5;Em trânsito
+1510;Danilo;2025-08-24;2025-08-26;2025-08-28;MG03;Salvador;789;Rodoviário;38.7;781.5;Entregue
+1511;Bryan;2025-07-14;2025-07-17;2025-07-30;MG03;Curitiba;2526;Ferroviário;5.4;1053.6;Atrasado
+1512;Eloah;2025-08-20;2025-08-21;2025-08-22;RJ02;Rio de Janeiro;2359;Rodoviário;34.4;1523.5;Entregue
+1513;Lorena;2025-08-17;2025-08-18;2025-09-01;RS04;São Paulo;2140;Rodoviário;8.5;1155.0;Atrasado
+1514;Raul;2025-07-05;2025-07-07;2025-07-12;RJ02;Belo Horizonte;1437;Rodoviário;31.8;1036.5;Entregue
+1515;Antônio;2025-09-03;2025-09-05;;RJ02;Rio de Janeiro;1673;Rodoviário;27.2;1108.5;Em trânsito
+1516;Yasmin;2025-07-17;2025-07-20;2025-07-26;MG03;Manaus;969;Ferroviário;38.2;693.2;Entregue
+1517;Nathan;2025-07-11;2025-07-13;2025-07-19;RJ02;São Paulo;2656;Rodoviário;29.2;1620.0;Entregue
+1518;Alexia;2025-07-25;2025-07-26;2025-08-02;RJ02;Porto Alegre;748;Rodoviário;40.4;778.0;Atrasado
+1519;Eloah;2025-07-29;2025-07-31;2025-08-03;MG03;Goiânia;841;Rodoviário;24.9;669.5;Entregue
+1520;Gabrielly;2025-09-11;2025-09-14;;RS04;Rio de Janeiro;162;Rodoviário;25.0;331.0;Em trânsito
+1521;Luiz Gustavo;2025-06-24;2025-06-25;2025-07-01;RS04;Recife;974;Rodoviário;46.7;954.0;Entregue
+1522;Sophia;2025-08-27;2025-08-30;2025-09-02;RJ02;Salvador;1877;Rodoviário;46.6;1404.5;Entregue
+1523;Valentina;2025-09-12;2025-09-13;2025-09-18;SP01;Manaus;2168;Ferroviário;37.4;1166.4;Entregue
+1524;Mariane;2025-08-14;2025-08-17;2025-08-20;RS04;Porto Alegre;1252;Rodoviário;16.2;788.0;Entregue
+1525;Thomas;2025-07-10;2025-07-12;2025-07-17;SP01;Manaus;2199;Aéreo;42.3;3045.0;Entregue
+1526;Joana;2025-06-29;2025-07-01;;RS04;Porto Alegre;1671;Ferroviário;21.8;842.8;Em trânsito
+1527;Henrique;2025-07-24;2025-07-26;;SP01;São Paulo;1336;Aéreo;8.5;1506.0;Em trânsito
+1528;Sofia;2025-08-23;2025-08-24;2025-08-30;SP01;Salvador;2408;Ferroviário;42.7;1304.8;Entregue
+1529;Amanda;2025-06-25;2025-06-28;2025-07-04;SP01;Salvador;2604;Rodoviário;35.3;1655.0;Entregue
+1530;João Pedro;2025-08-06;2025-08-07;2025-08-17;MG03;Recife;1168;Rodoviário;5.1;635.0;Atrasado
+1531;Maria Cecília;2025-08-25;2025-08-27;2025-08-31;RJ02;Salvador;857;Rodoviário;5.9;487.5;Entregue
+1532;Luiz Fernando;2025-09-09;2025-09-12;2025-09-21;RJ02;Manaus;1773;Ferroviário;31.2;958.8;Atrasado
+1533;Emanuelly;2025-07-30;2025-08-01;2025-08-05;MG03;Recife;2394;Rodoviário;17.0;1367.0;Entregue
+1534;Anthony;2025-09-04;2025-09-06;2025-09-10;RS04;Fortaleza;2510;Rodoviário;23.7;1492.0;Entregue
+1535;Davi Lucca;2025-09-14;2025-09-16;2025-09-25;RJ02;Fortaleza;2322;Ferroviário;14.2;1042.4;Atrasado
+1536;João;2025-07-30;2025-08-01;2025-08-07;SP01;Rio de Janeiro;192;Rodoviário;10.2;198.0;Entregue
+1537;Ana;2025-09-06;2025-09-07;2025-09-12;SP01;Recife;2787;Aéreo;28.1;3349.0;Entregue
+1538;Lucas Gabriel;2025-09-14;2025-09-15;2025-09-16;MG03;Recife;1437;Rodoviário;23.9;957.5;Entregue
+1539;Yasmin;2025-07-19;2025-07-20;2025-07-23;SP01;Brasília;1888;Rodoviário;44.9;1393.0;Entregue
+1540;Maria Julia;2025-08-11;2025-08-14;2025-08-18;RS04;Vitória;2815;Ferroviário;38.9;1437.2;Entregue
+1541;João Miguel;2025-07-14;2025-07-15;2025-07-29;SP01;Belo Horizonte;1487;Rodoviário;40.6;1149.5;Atrasado
+1542;Henrique;2025-09-10;2025-09-12;2025-09-15;RJ02;Vitória;528;Rodoviário;5.6;320.0;Entregue
+1543;Ana Vitória;2025-08-13;2025-08-15;2025-08-17;MG03;Rio de Janeiro;2681;Rodoviário;13.2;1472.5;Entregue
+1544;Davi;2025-06-30;2025-07-03;2025-07-04;SP01;Rio de Janeiro;2981;Rodoviário;49.5;1985.5;Entregue
+1545;Pedro Lucas;2025-09-04;2025-09-05;2025-09-10;MG03;Belo Horizonte;102;Rodoviário;21.8;269.0;Entregue
+1546;Yuri;2025-09-12;2025-09-15;2025-09-25;MG03;Goiânia;2007;Rodoviário;20.7;1210.5;Atrasado
+1547;Larissa;2025-09-15;2025-09-18;2025-09-20;RJ02;São Paulo;2495;Ferroviário;9.3;1072.4;Entregue
+1548;Caroline;2025-08-26;2025-08-29;2025-09-02;RS04;Vitória;349;Rodoviário;28.4;458.5;Entregue
+1549;Stella;2025-09-06;2025-09-08;2025-09-16;RS04;São Paulo;2632;Rodoviário;37.1;1687.0;Atrasado
+1550;Daniel;2025-08-12;2025-08-15;2025-08-16;MG03;Goiânia;2025;Ferroviário;45.9;1177.2;Entregue
+1551;Cauã;2025-09-15;2025-09-18;2025-09-23;RS04;Manaus;903;Aéreo;29.4;1491.0;Entregue
+1552;Gabrielly;2025-07-22;2025-07-24;2025-07-26;SP01;Brasília;153;Rodoviário;31.5;391.5;Entregue
+1553;Esther;2025-08-03;2025-08-04;2025-08-07;RJ02;Goiânia;749;Rodoviário;13.5;509.5;Entregue
+1554;Rodrigo;2025-09-15;2025-09-16;2025-09-18;RS04;Belo Horizonte;957;Rodoviário;48.1;959.5;Entregue
+1555;Ana Vitória;2025-09-07;2025-09-08;2025-09-14;SP01;Belo Horizonte;2825;Ferroviário;15.1;1250.8;Entregue
+1556;Luiz Henrique;2025-08-17;2025-08-19;2025-08-23;SP01;Manaus;1022;Rodoviário;16.9;680.0;Entregue
+1557;Henrique;2025-08-30;2025-09-02;2025-09-15;RS04;Recife;937;Ferroviário;39.8;693.2;Atrasado
+1558;Kamilly;2025-08-23;2025-08-24;2025-08-25;SP01;Salvador;1193;Rodoviário;45.0;1046.5;Entregue
+1559;Marina;2025-06-24;2025-06-27;2025-07-03;RJ02;Salvador;1340;Aéreo;45.0;2240.0;Entregue
+1560;Ryan;2025-09-05;2025-09-08;;RS04;Salvador;2037;Ferroviário;16.2;944.4;Em trânsito
+1561;Luiz Miguel;2025-07-29;2025-07-31;2025-08-12;RS04;Brasília;1775;Rodoviário;38.7;1274.5;Atrasado
+1562;Marina;2025-07-10;2025-07-11;2025-07-22;MG03;Belo Horizonte;450;Rodoviário;23.5;460.0;Atrasado
+1563;Nathan;2025-08-15;2025-08-16;;MG03;Brasília;598;Rodoviário;5.6;355.0;Em trânsito
+1564;Agatha;2025-07-19;2025-07-20;2025-07-26;MG03;Fortaleza;213;Ferroviário;18.9;236.4;Entregue
+1565;Giovanna;2025-09-15;2025-09-18;2025-09-27;RJ02;Belo Horizonte;614;Ferroviário;43.9;596.8;Atrasado
+1566;Nicole;2025-08-14;2025-08-16;2025-08-20;SP01;Belo Horizonte;2830;Ferroviário;11.2;1221.6;Entregue
+1567;Gustavo Henrique;2025-08-29;2025-08-30;2025-09-02;MG03;Fortaleza;750;Aéreo;20.4;1158.0;Entregue
+1568;Beatriz;2025-07-18;2025-07-19;2025-07-24;MG03;Porto Alegre;2927;Rodoviário;43.7;1900.5;Entregue
+1569;Guilherme;2025-08-15;2025-08-17;2025-08-24;RJ02;Brasília;387;Rodoviário;35.4;547.5;Atrasado
+1570;Levi;2025-09-06;2025-09-09;2025-09-23;MG03;Brasília;2424;Ferroviário;7.4;1028.8;Atrasado
+1571;Pedro Lucas;2025-07-28;2025-07-31;2025-08-01;RJ02;Manaus;1017;Rodoviário;33.6;844.5;Entregue
+1572;Júlia;2025-07-28;2025-07-29;2025-08-02;RJ02;Salvador;2868;Ferroviário;12.6;1248.0;Entregue
+1573;Kamilly;2025-07-21;2025-07-23;2025-08-05;MG03;Brasília;306;Ferroviário;41.1;451.2;Atrasado
+1574;Gustavo Henrique;2025-07-22;2025-07-24;;RS04;Fortaleza;189;Rodoviário;11.9;213.5;Em trânsito
+1575;Augusto;2025-07-20;2025-07-21;2025-07-29;RS04;Salvador;1710;Rodoviário;21.0;1065.0;Atrasado
+1576;Helena;2025-09-06;2025-09-08;2025-09-19;RS04;Manaus;1025;Aéreo;32.7;1679.0;Atrasado
+1577;Yago;2025-06-26;2025-06-29;2025-07-11;MG03;Recife;1075;Aéreo;44.9;1973.0;Atrasado
+1578;Benjamin;2025-08-17;2025-08-20;2025-09-03;RS04;Vitória;278;Rodoviário;45.4;593.0;Atrasado
+1579;Maria Cecília;2025-07-21;2025-07-24;2025-07-25;RS04;Porto Alegre;2513;Rodoviário;8.0;1336.5;Entregue
+1580;João Pedro;2025-07-29;2025-08-01;2025-08-02;RS04;Manaus;1024;Rodoviário;22.4;736.0;Entregue
+1581;Bernardo;2025-08-06;2025-08-08;2025-08-10;RJ02;Brasília;2423;Rodoviário;47.4;1685.5;Entregue
+1582;Camila;2025-07-05;2025-07-08;2025-07-11;SP01;Vitória;1931;Rodoviário;5.4;1019.5;Entregue
+1583;Carlos Eduardo;2025-07-08;2025-07-11;2025-07-23;RS04;Fortaleza;1216;Rodoviário;10.8;716.0;Atrasado
+1584;Ana Júlia;2025-06-18;2025-06-21;2025-06-25;SP01;Curitiba;2248;Rodoviário;45.4;1578.0;Entregue
+1585;Kaique;2025-06-23;2025-06-25;2025-07-01;RJ02;Recife;110;Rodoviário;41.2;467.0;Entregue
+1586;Ana Beatriz;2025-06-25;2025-06-26;2025-06-28;RS04;Fortaleza;2063;Rodoviário;27.0;1301.5;Entregue
+1587;Vicente;2025-08-13;2025-08-14;2025-08-16;SP01;Recife;2253;Rodoviário;21.4;1340.5;Entregue
+1588;Camila;2025-06-18;2025-06-20;2025-07-04;RJ02;Belo Horizonte;1071;Ferroviário;43.8;778.8;Atrasado
+1589;Ana Luiza;2025-07-06;2025-07-09;2025-07-14;SP01;Vitória;139;Rodoviário;13.8;207.5;Entregue
+1590;Olivia;2025-06-28;2025-06-30;2025-07-01;MG03;Goiânia;1334;Ferroviário;10.3;616.0;Entregue
+1591;Davi Luiz;2025-06-24;2025-06-26;2025-06-30;MG03;Vitória;2371;Rodoviário;13.8;1323.5;Entregue
+1592;Felipe;2025-07-30;2025-07-31;2025-08-12;MG03;Vitória;2335;Rodoviário;34.0;1507.5;Atrasado
+1593;Fernanda;2025-08-08;2025-08-11;;SP01;Brasília;2633;Rodoviário;43.5;1751.5;Em trânsito
+1594;Luiz Gustavo;2025-07-19;2025-07-20;2025-07-24;MG03;Salvador;2885;Aéreo;32.2;3529.0;Entregue
+1595;Olivia;2025-08-09;2025-08-11;;RS04;Vitória;2153;Rodoviário;40.9;1485.5;Em trânsito
+1596;Davi;2025-07-31;2025-08-03;2025-08-13;SP01;Brasília;1922;Rodoviário;20.2;1163.0;Atrasado
+1597;Daniela;2025-09-10;2025-09-11;2025-09-17;SP01;Manaus;1719;Rodoviário;16.8;1027.5;Entregue
+1598;Thiago;2025-07-26;2025-07-27;2025-07-29;RJ02;São Paulo;375;Rodoviário;15.4;341.5;Entregue
+1599;Vitor Hugo;2025-07-07;2025-07-08;2025-07-13;SP01;Fortaleza;1451;Aéreo;6.8;1587.0;Entregue
+1600;Theo;2025-08-26;2025-08-28;2025-08-31;RJ02;Brasília;880;Rodoviário;26.0;700.0;Entregue
+1601;Vicente;2025-08-08;2025-08-09;2025-08-22;RJ02;Salvador;821;Rodoviário;36.7;777.5;Atrasado
+1602;Eduarda;2025-06-26;2025-06-27;2025-07-08;RJ02;Rio de Janeiro;2928;Ferroviário;39.3;1485.6;Atrasado
+1603;Luna;2025-09-14;2025-09-17;2025-09-20;RS04;Vitória;2861;Ferroviário;10.6;1229.2;Entregue
+1604;Juan;2025-07-18;2025-07-20;2025-07-24;SP01;Salvador;1490;Rodoviário;6.1;806.0;Entregue
+1605;Vinicius;2025-06-28;2025-06-30;2025-07-04;SP01;Vitória;1052;Rodoviário;46.5;991.0;Entregue
+1606;Pedro Lucas;2025-06-20;2025-06-21;2025-06-23;RJ02;Belo Horizonte;238;Rodoviário;34.3;462.0;Entregue
+1607;Heloísa;2025-07-16;2025-07-17;2025-07-22;SP01;Porto Alegre;523;Aéreo;22.4;971.0;Entregue
+1608;Miguel;2025-07-17;2025-07-19;2025-07-24;RS04;Belo Horizonte;921;Rodoviário;17.7;637.5;Entregue
+1609;Cauê;2025-06-28;2025-07-01;2025-07-02;SP01;Belo Horizonte;1573;Ferroviário;47.0;1005.2;Entregue
+1610;Paulo;2025-08-03;2025-08-06;2025-08-09;RS04;Salvador;1151;Ferroviário;47.6;841.2;Entregue
+1611;Isis;2025-08-11;2025-08-14;2025-08-20;RJ02;São Paulo;2205;Rodoviário;35.5;1457.5;Entregue
+1612;Bárbara;2025-07-28;2025-07-29;2025-08-11;RS04;Belo Horizonte;1309;Rodoviário;11.4;768.5;Atrasado
+1613;Davi;2025-06-24;2025-06-27;2025-07-05;RJ02;Fortaleza;2756;Aéreo;13.4;3024.0;Atrasado
+1614;Noah;2025-09-12;2025-09-14;;RS04;Brasília;236;Rodoviário;37.0;488.0;Em trânsito
+1615;Lorenzo;2025-08-07;2025-08-10;2025-08-16;SP01;Vitória;2949;Rodoviário;5.2;1526.5;Entregue
+1616;Julia;2025-06-29;2025-07-01;2025-07-03;RS04;Fortaleza;251;Ferroviário;39.1;413.2;Entregue
+1617;Clarice;2025-08-27;2025-08-28;2025-09-01;SP01;Porto Alegre;1810;Rodoviário;44.8;1353.0;Entregue
+1618;Agatha;2025-08-28;2025-08-31;2025-09-01;RJ02;Vitória;1701;Rodoviário;20.4;1054.5;Entregue
+1619;Breno;2025-09-14;2025-09-15;2025-09-25;RJ02;Porto Alegre;2593;Rodoviário;10.3;1399.5;Atrasado
+1620;Yuri;2025-07-01;2025-07-02;2025-07-04;RJ02;Curitiba;1074;Rodoviário;12.4;661.0;Entregue
+1621;Yago;2025-09-02;2025-09-03;2025-09-09;SP01;Brasília;1426;Rodoviário;31.2;1025.0;Entregue
+1622;Evelyn;2025-08-08;2025-08-09;2025-08-21;RS04;Recife;291;Aéreo;23.0;751.0;Atrasado
+1623;Laís;2025-08-04;2025-08-05;;RS04;Recife;302;Ferroviário;9.7;198.4;Em trânsito
+1624;Rafaela;2025-08-23;2025-08-24;2025-08-29;RS04;Brasília;1360;Rodoviário;15.2;832.0;Entregue
+1625;Thiago;2025-09-15;2025-09-18;2025-09-19;RS04;Goiânia;2966;Ferroviário;29.0;1418.4;Entregue
+1626;Sarah;2025-07-05;2025-07-08;2025-07-11;RS04;Salvador;831;Aéreo;16.7;1165.0;Entregue
+1627;Ana;2025-06-27;2025-06-30;2025-07-14;MG03;Rio de Janeiro;1370;Rodoviário;6.2;747.0;Atrasado
+1628;Cauã;2025-07-23;2025-07-24;2025-07-29;MG03;São Paulo;860;Rodoviário;21.2;642.0;Entregue
+1629;Thiago;2025-09-14;2025-09-15;2025-09-27;RJ02;Belo Horizonte;2128;Ferroviário;12.1;948.0;Atrasado
+1630;Amanda;2025-08-12;2025-08-13;2025-08-15;SP01;São Paulo;265;Rodoviário;26.7;399.5;Entregue
+1631;Marina;2025-06-26;2025-06-28;2025-07-04;MG03;Fortaleza;754;Ferroviário;22.3;480.0;Entregue
+1632;Isadora;2025-07-26;2025-07-27;2025-07-30;RS04;Salvador;1081;Rodoviário;23.9;779.5;Entregue
+1633;Lívia;2025-06-23;2025-06-25;2025-06-30;RJ02;Curitiba;489;Rodoviário;34.5;589.5;Entregue
+1634;Otávio;2025-08-17;2025-08-19;2025-08-20;RJ02;Recife;2531;Rodoviário;28.1;1546.5;Entregue
+1635;Renan;2025-08-11;2025-08-14;;RS04;Belo Horizonte;2566;Rodoviário;29.8;1581.0;Em trânsito
+1636;Maria Cecília;2025-07-17;2025-07-19;2025-08-02;RS04;São Paulo;2510;Aéreo;25.0;3010.0;Atrasado
+1637;Melissa;2025-08-19;2025-08-20;2025-08-26;SP01;Curitiba;907;Rodoviário;42.2;875.5;Entregue
+1638;Fernando;2025-09-01;2025-09-03;2025-09-05;RS04;Rio de Janeiro;1410;Rodoviário;19.3;898.0;Entregue
+1639;Lucas;2025-07-23;2025-07-26;2025-08-02;MG03;Rio de Janeiro;2730;Aéreo;46.2;3654.0;Atrasado
+1640;Vitória;2025-08-03;2025-08-05;2025-08-08;RJ02;Manaus;757;Rodoviário;40.1;779.5;Entregue
+1641;Lucas;2025-06-24;2025-06-27;2025-07-06;RJ02;Recife;552;Rodoviário;47.4;750.0;Atrasado
+1642;Davi;2025-07-06;2025-07-07;2025-07-11;SP01;Recife;2153;Rodoviário;43.0;1506.5;Entregue
+1643;Isaac;2025-08-30;2025-09-01;2025-09-06;RJ02;Curitiba;1129;Rodoviário;6.8;632.5;Entregue
+1644;Camila;2025-09-01;2025-09-04;2025-09-13;SP01;Curitiba;1058;Rodoviário;37.8;907.0;Atrasado
+1645;Noah;2025-08-10;2025-08-11;2025-08-25;RJ02;Belo Horizonte;1316;Rodoviário;40.2;1060.0;Atrasado
+1646;Evelyn;2025-07-28;2025-07-31;2025-08-02;MG03;Vitória;2223;Ferroviário;36.0;1177.2;Entregue
+1647;Catarina;2025-08-28;2025-08-29;2025-08-30;MG03;Manaus;1206;Aéreo;23.9;1684.0;Entregue
+1648;Davi Luiz;2025-07-29;2025-08-01;2025-08-05;RJ02;Fortaleza;2515;Rodoviário;40.9;1666.5;Entregue
+1649;Emanuel;2025-08-14;2025-08-16;2025-08-18;RJ02;Recife;2786;Rodoviário;34.8;1741.0;Entregue
+1650;Isabel;2025-06-23;2025-06-25;2025-06-28;MG03;Porto Alegre;2552;Aéreo;18.7;2926.0;Entregue
+1651;Eduardo;2025-08-29;2025-08-30;2025-09-01;RS04;Vitória;909;Aéreo;14.6;1201.0;Entregue
+1652;Mariana;2025-08-16;2025-08-17;2025-08-20;SP01;Brasília;1981;Aéreo;40.2;2785.0;Entregue
+1653;Davi;2025-08-29;2025-09-01;2025-09-03;RS04;Goiânia;1456;Rodoviário;5.3;781.0;Entregue
+1654;Brenda;2025-07-04;2025-07-06;2025-07-09;MG03;Fortaleza;2850;Rodoviário;29.7;1722.0;Entregue
+1655;Maria Cecília;2025-07-16;2025-07-17;2025-07-24;MG03;São Paulo;475;Rodoviário;8.9;326.5;Atrasado
+1656;Pedro;2025-07-07;2025-07-09;2025-07-13;RJ02;Goiânia;1025;Rodoviário;19.9;711.5;Entregue
+1657;Lorena;2025-08-21;2025-08-24;2025-08-28;SP01;Porto Alegre;2944;Rodoviário;22.8;1700.0;Entregue
+1658;Arthur;2025-06-25;2025-06-27;2025-07-02;RJ02;Porto Alegre;163;Rodoviário;46.0;541.5;Entregue
+1659;Vicente;2025-08-25;2025-08-26;2025-09-01;MG03;Curitiba;323;Ferroviário;7.6;190.0;Entregue
+1660;Cauê;2025-09-10;2025-09-12;2025-09-14;SP01;Brasília;929;Aéreo;20.5;1339.0;Entregue
+1661;Amanda;2025-09-10;2025-09-13;2025-09-16;MG03;Salvador;2729;Aéreo;40.6;3541.0;Entregue
+1662;Lara;2025-09-05;2025-09-06;2025-09-08;RJ02;Porto Alegre;1015;Ferroviário;29.1;638.8;Entregue
+1663;Davi Lucas;2025-06-21;2025-06-23;2025-06-28;RS04;Rio de Janeiro;2736;Aéreo;12.0;2976.0;Entregue
+1664;Esther;2025-09-14;2025-09-17;2025-09-19;RJ02;Belo Horizonte;2588;Rodoviário;33.7;1631.0;Entregue
+1665;Carlos Eduardo;2025-07-11;2025-07-14;2025-07-16;MG03;Curitiba;1261;Rodoviário;19.9;829.5;Entregue
+1666;João;2025-08-19;2025-08-20;2025-08-26;MG03;Porto Alegre;1026;Ferroviário;42.0;746.4;Entregue
+1667;Eloah;2025-07-07;2025-07-10;2025-07-12;MG03;Rio de Janeiro;1007;Rodoviário;45.0;953.5;Entregue
+1668;João Pedro;2025-07-13;2025-07-14;2025-07-19;RJ02;Recife;1509;Ferroviário;28.0;827.6;Entregue
+1669;Pietra;2025-08-01;2025-08-04;2025-08-06;MG03;Brasília;2640;Rodoviário;11.8;1438.0;Entregue
+1670;Vitor;2025-07-13;2025-07-16;2025-07-18;SP01;Rio de Janeiro;2841;Rodoviário;17.4;1594.5;Entregue
+1671;Luana;2025-07-03;2025-07-04;2025-07-06;RS04;Manaus;907;Rodoviário;34.8;801.5;Entregue
+1672;Lavínia;2025-07-27;2025-07-29;2025-08-03;RJ02;Salvador;284;Ferroviário;7.0;169.6;Entregue
+1673;Mariane;2025-08-20;2025-08-21;;RS04;Manaus;2159;Rodoviário;25.9;1338.5;Em trânsito
+1674;Kevin;2025-07-23;2025-07-24;2025-07-25;RJ02;Curitiba;159;Ferroviário;35.3;346.0;Entregue
+1675;Lívia;2025-08-03;2025-08-05;2025-08-06;RJ02;Rio de Janeiro;626;Aéreo;31.0;1246.0;Entregue
+1676;Bernardo;2025-07-12;2025-07-13;2025-07-18;RJ02;Porto Alegre;1851;Rodoviário;46.3;1388.5;Entregue
+1677;Caio;2025-06-20;2025-06-22;2025-06-26;SP01;Curitiba;2353;Ferroviário;49.7;1338.8;Entregue
+1678;Nicolas;2025-09-06;2025-09-07;2025-09-12;RS04;Curitiba;2441;Rodoviário;5.1;1271.5;Entregue
+1679;Pedro Henrique;2025-08-20;2025-08-23;2025-08-28;RS04;Porto Alegre;1878;Rodoviário;5.7;996.0;Entregue
+1680;Vitória;2025-07-23;2025-07-25;2025-07-26;SP01;Recife;2464;Rodoviário;11.1;1343.0;Entregue
+1681;Kevin;2025-07-01;2025-07-02;2025-07-15;RS04;Rio de Janeiro;2256;Aéreo;34.0;2936.0;Atrasado
+1682;Maria Alice;2025-06-20;2025-06-23;2025-06-26;SP01;Porto Alegre;1478;Rodoviário;16.5;904.0;Entregue
+1683;Carlos Eduardo;2025-08-03;2025-08-05;2025-08-10;MG03;Curitiba;2438;Aéreo;29.9;3036.0;Entregue
+1684;Antônio;2025-08-22;2025-08-25;2025-08-31;RJ02;Porto Alegre;607;Rodoviário;22.5;528.5;Entregue
+1685;Clara;2025-07-12;2025-07-13;2025-07-16;MG03;Salvador;1467;Rodoviário;8.9;822.5;Entregue
+1686;Marina;2025-08-29;2025-09-01;2025-09-10;SP01;Manaus;228;Rodoviário;35.3;467.0;Atrasado
+1687;Bruno;2025-07-18;2025-07-20;2025-07-23;SP01;Belo Horizonte;2335;Rodoviário;31.0;1477.5;Entregue
+1688;Marina;2025-07-17;2025-07-18;2025-07-22;MG03;Salvador;2832;Ferroviário;35.3;1415.2;Entregue
+1689;Marina;2025-07-17;2025-07-18;2025-07-22;MG03;Porto Alegre;1166;Rodoviário;10.6;689.0;Entregue
+1690;Heloísa;2025-07-23;2025-07-25;2025-07-28;RJ02;Recife;398;Rodoviário;39.7;596.0;Entregue
+1691;Pedro Lucas;2025-09-02;2025-09-05;2025-09-14;RS04;Recife;1902;Ferroviário;41.9;1096.0;Atrasado
+1692;Heloísa;2025-08-15;2025-08-17;2025-08-20;RS04;Salvador;1041;Rodoviário;34.4;864.5;Entregue
+1693;Ana Lívia;2025-08-11;2025-08-12;;RS04;Brasília;2199;Ferroviário;21.4;1050.8;Em trânsito
+1694;Pietro;2025-07-08;2025-07-11;;RS04;Vitória;1993;Rodoviário;21.1;1207.5;Em trânsito
+1695;Danilo;2025-07-14;2025-07-15;2025-07-20;RS04;Vitória;1392;Ferroviário;36.6;849.6;Entregue
+1696;Carlos Eduardo;2025-09-07;2025-09-08;;RS04;Brasília;1603;Ferroviário;25.4;844.4;Em trânsito
+1697;Davi Luiz;2025-06-20;2025-06-23;2025-06-24;MG03;Recife;846;Aéreo;22.0;1286.0;Entregue
+1698;Maria Clara;2025-08-01;2025-08-03;2025-08-04;RS04;Belo Horizonte;897;Rodoviário;9.8;546.5;Entregue
+1699;Enzo Gabriel;2025-08-18;2025-08-20;2025-08-25;SP01;Fortaleza;1046;Rodoviário;32.6;849.0;Entregue
+1700;Davi Lucas;2025-08-09;2025-08-10;2025-08-14;RJ02;Salvador;2364;Aéreo;34.2;3048.0;Entregue
+1701;Mariana;2025-06-23;2025-06-25;2025-06-27;RJ02;Vitória;490;Rodoviário;10.0;345.0;Entregue
+1702;Beatriz;2025-06-24;2025-06-27;2025-06-28;RS04;Porto Alegre;1311;Rodoviário;38.0;1035.5;Entregue
+1703;Caroline;2025-07-19;2025-07-22;2025-07-26;SP01;Recife;2625;Rodoviário;9.4;1406.5;Entregue
+1704;Isadora;2025-07-08;2025-07-09;2025-07-13;RJ02;Curitiba;1758;Ferroviário;31.7;956.8;Entregue
+1705;Lucas Gabriel;2025-09-02;2025-09-03;2025-09-07;SP01;Belo Horizonte;658;Aéreo;21.7;1092.0;Entregue
+1706;Benjamin;2025-07-15;2025-07-16;2025-07-22;RJ02;Recife;2689;Rodoviário;26.5;1609.5;Entregue
+1707;Vitor Gabriel;2025-08-31;2025-09-02;2025-09-04;SP01;Recife;2400;Rodoviário;44.4;1644.0;Entregue
+1708;Antônio;2025-07-09;2025-07-12;2025-07-18;RJ02;Goiânia;1835;Ferroviário;26.1;942.8;Entregue
+1709;Cauã;2025-07-28;2025-07-30;2025-08-04;RJ02;Vitória;2180;Rodoviário;40.4;1494.0;Entregue
+1710;Sophie;2025-09-15;2025-09-17;2025-09-18;RJ02;Porto Alegre;943;Ferroviário;17.6;518.0;Entregue
+1711;Otávio;2025-08-11;2025-08-13;2025-08-15;RS04;Recife;271;Rodoviário;32.0;455.5;Entregue
+1712;Ana Laura;2025-09-11;2025-09-14;2025-09-20;SP01;Manaus;2511;Rodoviário;41.9;1674.5;Entregue
+1713;Gabriel;2025-06-30;2025-07-03;2025-07-04;RJ02;Fortaleza;2169;Rodoviário;47.1;1555.5;Entregue
+1714;Anthony;2025-08-26;2025-08-28;2025-09-04;SP01;Recife;1886;Aéreo;29.4;2474.0;Atrasado
+1715;João Pedro;2025-07-05;2025-07-08;2025-07-09;RJ02;Salvador;2563;Ferroviário;40.4;1348.4;Entregue
+1716;Emanuelly;2025-07-28;2025-07-29;2025-07-31;MG03;Recife;989;Rodoviário;24.9;743.5;Entregue
+1717;Rodrigo;2025-07-14;2025-07-17;2025-07-19;RS04;Belo Horizonte;1519;Rodoviário;28.0;1039.5;Entregue
+1718;Ana Luiza;2025-06-22;2025-06-25;2025-07-09;MG03;Manaus;439;Rodoviário;5.3;272.5;Atrasado
+1719;Juliana;2025-09-02;2025-09-05;2025-09-10;MG03;Vitória;2481;Aéreo;7.2;2625.0;Entregue
+1720;Camila;2025-08-11;2025-08-14;2025-08-22;SP01;Salvador;2260;Ferroviário;7.1;960.8;Atrasado
+1721;Diogo;2025-08-31;2025-09-03;2025-09-04;SP01;Rio de Janeiro;2159;Aéreo;40.8;2975.0;Entregue
+1722;João Guilherme;2025-07-06;2025-07-08;2025-07-09;RS04;Vitória;2318;Ferroviário;37.8;1229.6;Entregue
+1723;Ana Clara;2025-08-21;2025-08-22;2025-08-27;MG03;Goiânia;2805;Ferroviário;12.6;1222.8;Entregue
+1724;Isis;2025-08-12;2025-08-15;2025-08-16;RS04;Curitiba;2879;Rodoviário;13.0;1569.5;Entregue
+1725;Maria Clara;2025-09-11;2025-09-13;2025-09-15;RS04;Salvador;2099;Aéreo;10.2;2303.0;Entregue
+1726;Erick;2025-06-22;2025-06-23;2025-06-24;RS04;Salvador;949;Ferroviário;35.5;663.6;Entregue
+1727;Yago;2025-07-16;2025-07-19;2025-07-23;MG03;Rio de Janeiro;1884;Ferroviário;43.0;1097.6;Entregue
+1728;Sofia;2025-08-06;2025-08-09;2025-08-15;RJ02;Salvador;2704;Rodoviário;23.0;1582.0;Entregue
+1729;Lorenzo;2025-06-26;2025-06-29;2025-07-11;MG03;Fortaleza;1973;Ferroviário;17.3;927.6;Atrasado
+1730;Mariana;2025-06-22;2025-06-25;2025-06-29;MG03;Curitiba;2400;Rodoviário;48.1;1681.0;Entregue
+1731;Nicole;2025-09-06;2025-09-09;2025-09-12;RS04;Salvador;1466;Rodoviário;7.7;810.0;Entregue
+1732;Gabriel;2025-09-02;2025-09-05;2025-09-11;RS04;Goiânia;1562;Aéreo;44.6;2454.0;Entregue
+1733;Sophie;2025-08-17;2025-08-18;;SP01;Salvador;762;Rodoviário;37.9;760.0;Em trânsito
+1734;Maria Sophia;2025-09-02;2025-09-05;2025-09-11;SP01;Brasília;1978;Rodoviário;34.5;1334.0;Entregue
+1735;Larissa;2025-08-06;2025-08-09;2025-08-14;RS04;Rio de Janeiro;1426;Rodoviário;21.0;923.0;Entregue
+1736;Lorenzo;2025-07-20;2025-07-22;2025-07-25;RJ02;Brasília;748;Ferroviário;23.6;488.0;Entregue
+1737;Samuel;2025-09-03;2025-09-04;2025-09-18;SP01;São Paulo;2490;Rodoviário;46.0;1705.0;Atrasado
+1738;Fernanda;2025-08-13;2025-08-14;2025-08-16;SP01;Manaus;1621;Rodoviário;45.9;1269.5;Entregue
+1739;Rafael;2025-08-09;2025-08-10;2025-08-21;MG03;Rio de Janeiro;1291;Rodoviário;30.8;953.5;Atrasado
+1740;Enzo;2025-07-14;2025-07-15;2025-07-17;RS04;São Paulo;2007;Rodoviário;28.5;1288.5;Entregue
+1741;Nina;2025-08-04;2025-08-06;2025-08-07;SP01;São Paulo;607;Rodoviário;31.5;618.5;Entregue
+1742;Esther;2025-09-04;2025-09-06;2025-09-09;SP01;Salvador;1622;Rodoviário;19.7;1008.0;Entregue
+1743;Mariane;2025-07-06;2025-07-07;2025-07-11;RS04;Recife;1525;Rodoviário;30.0;1062.5;Entregue
+1744;Rodrigo;2025-09-09;2025-09-11;2025-09-17;RS04;Vitória;2195;Rodoviário;37.5;1472.5;Entregue
+1745;Juliana;2025-06-26;2025-06-28;2025-07-02;RJ02;Goiânia;2747;Rodoviário;41.5;1788.5;Entregue
+1746;Renan;2025-08-22;2025-08-25;2025-08-26;SP01;Vitória;2301;Aéreo;5.9;2419.0;Entregue
+1747;Bárbara;2025-09-12;2025-09-15;2025-09-20;MG03;Porto Alegre;887;Ferroviário;44.9;714.0;Entregue
+1748;Juan;2025-09-15;2025-09-16;;RJ02;Manaus;1218;Rodoviário;33.7;946.0;Em trânsito
+1749;Augusto;2025-09-06;2025-09-09;2025-09-10;RJ02;Porto Alegre;2414;Rodoviário;11.2;1319.0;Entregue
+1750;Marina;2025-07-29;2025-07-30;2025-08-04;RS04;Porto Alegre;1197;Aéreo;6.8;1333.0;Entregue
+1751;Nina;2025-09-12;2025-09-15;2025-09-19;MG03;Recife;1931;Ferroviário;8.8;842.8;Entregue
+1752;Stephany;2025-08-22;2025-08-23;2025-08-26;SP01;Recife;834;Ferroviário;48.5;721.6;Entregue
+1753;Letícia;2025-08-25;2025-08-28;2025-08-30;SP01;Manaus;831;Rodoviário;27.7;692.5;Entregue
+1754;Daniela;2025-08-17;2025-08-19;2025-08-22;RJ02;Curitiba;1315;Ferroviário;22.9;709.2;Entregue
+1755;Kaique;2025-07-29;2025-08-01;2025-08-07;RS04;Fortaleza;2471;Ferroviário;19.6;1145.2;Entregue
+1756;Yago;2025-08-03;2025-08-06;2025-08-13;MG03;Salvador;1735;Rodoviário;20.3;1070.5;Atrasado
+1757;Joaquim;2025-09-03;2025-09-04;;RJ02;Fortaleza;1814;Rodoviário;19.3;1100.0;Em trânsito
+1758;Camila;2025-09-06;2025-09-09;2025-09-22;SP01;Recife;2693;Rodoviário;46.0;1806.5;Atrasado
+1759;Ana Júlia;2025-08-17;2025-08-19;;SP01;Vitória;1562;Rodoviário;34.1;1122.0;Em trânsito
+1760;Julia;2025-08-22;2025-08-24;2025-08-30;RJ02;Goiânia;998;Rodoviário;5.2;551.0;Entregue
+1761;Mirella;2025-07-04;2025-07-07;;SP01;Salvador;1307;Rodoviário;47.5;1128.5;Em trânsito
+1762;Lorenzo;2025-07-09;2025-07-12;;RS04;Salvador;1182;Ferroviário;49.4;868.0;Em trânsito
+1763;Isabella;2025-08-09;2025-08-10;2025-08-24;RJ02;Curitiba;478;Ferroviário;18.8;341.6;Atrasado
+1764;Davi Luiz;2025-08-19;2025-08-22;2025-08-31;RS04;Salvador;1066;Rodoviário;12.6;659.0;Atrasado
+1765;Thales;2025-08-07;2025-08-10;2025-08-11;RJ02;Curitiba;2312;Rodoviário;32.2;1478.0;Entregue
+1766;Gustavo Henrique;2025-09-05;2025-09-08;2025-09-22;RS04;Belo Horizonte;471;Aéreo;23.1;933.0;Atrasado
+1767;João Miguel;2025-07-22;2025-07-24;2025-07-29;SP01;São Paulo;1147;Rodoviário;32.5;898.5;Entregue
+1768;Francisco;2025-07-20;2025-07-22;2025-08-04;MG03;Salvador;2418;Aéreo;15.5;2728.0;Atrasado
+1769;Bianca;2025-07-29;2025-08-01;2025-08-06;SP01;Rio de Janeiro;1083;Aéreo;31.2;1707.0;Entregue
+1770;Beatriz;2025-08-15;2025-08-17;;SP01;São Paulo;645;Rodoviário;21.1;533.5;Em trânsito
+1771;Ana Carolina;2025-06-30;2025-07-01;2025-07-03;RJ02;Recife;1600;Rodoviário;10.5;905.0;Entregue
+1772;Olivia;2025-08-02;2025-08-03;2025-08-06;RJ02;Rio de Janeiro;1480;Ferroviário;31.8;846.4;Entregue
+1773;Sarah;2025-07-30;2025-07-31;2025-08-05;SP01;Salvador;2438;Aéreo;43.4;3306.0;Entregue
+1774;Isaac;2025-07-12;2025-07-13;2025-07-15;MG03;Rio de Janeiro;696;Ferroviário;38.6;587.2;Entregue
+1775;Valentina;2025-08-08;2025-08-09;;SP01;Porto Alegre;2595;Rodoviário;7.5;1372.5;Em trânsito
+1776;Thomas;2025-08-21;2025-08-22;2025-08-23;RJ02;Vitória;2759;Rodoviário;17.7;1556.5;Entregue
+1777;Benjamin;2025-07-27;2025-07-29;2025-08-04;MG03;São Paulo;2677;Ferroviário;15.4;1194.0;Entregue
+1778;Rebeca;2025-08-01;2025-08-02;2025-08-06;SP01;Rio de Janeiro;1806;Ferroviário;37.0;1018.4;Entregue
+1779;Eloah;2025-07-27;2025-07-29;2025-08-02;RS04;Salvador;2465;Rodoviário;7.4;1306.5;Entregue
+1780;Bruna;2025-07-31;2025-08-02;2025-08-03;SP01;Fortaleza;1141;Rodoviário;38.3;953.5;Entregue
+1781;Breno;2025-09-05;2025-09-08;2025-09-10;SP01;Rio de Janeiro;1018;Ferroviário;6.4;458.4;Entregue
+1782;Cecília;2025-08-27;2025-08-29;2025-09-01;MG03;Fortaleza;245;Aéreo;39.0;1025.0;Entregue
+1783;Bernardo;2025-06-21;2025-06-23;2025-07-03;RJ02;São Paulo;151;Aéreo;17.0;491.0;Atrasado
+1784;Ana Clara;2025-09-07;2025-09-09;2025-09-12;MG03;Goiânia;2838;Rodoviário;45.7;1876.0;Entregue
+1785;Davi;2025-09-14;2025-09-17;2025-09-18;RJ02;São Paulo;635;Rodoviário;13.3;450.5;Entregue
+1786;Arthur;2025-09-14;2025-09-16;2025-09-20;MG03;Salvador;558;Aéreo;27.2;1102.0;Entregue
+1787;Pietro;2025-07-01;2025-07-02;2025-07-03;MG03;Rio de Janeiro;221;Rodoviário;19.4;304.5;Entregue
+1788;Paulo;2025-07-23;2025-07-24;2025-08-07;RJ02;Belo Horizonte;2010;Rodoviário;8.2;1087.0;Atrasado
+1789;Alícia;2025-06-24;2025-06-27;2025-07-04;RS04;Porto Alegre;2857;Rodoviário;48.0;1908.5;Atrasado
+1790;Ana Vitória;2025-08-25;2025-08-28;2025-09-11;RS04;Brasília;160;Rodoviário;14.6;226.0;Atrasado
+1791;Lucas;2025-09-06;2025-09-07;2025-09-21;MG03;São Paulo;634;Aéreo;32.3;1280.0;Atrasado
+1792;Elisa;2025-08-06;2025-08-09;2025-08-20;RS04;Recife;707;Ferroviário;12.5;382.8;Atrasado
+1793;André;2025-07-10;2025-07-11;2025-07-15;RJ02;Salvador;2947;Rodoviário;34.9;1822.5;Entregue
+1794;Matheus;2025-06-30;2025-07-03;2025-07-09;MG03;Rio de Janeiro;1001;Rodoviário;6.8;568.5;Entregue
+1795;Laís;2025-06-19;2025-06-21;2025-06-25;MG03;Manaus;647;Rodoviário;22.6;549.5;Entregue
+1796;Eloah;2025-07-25;2025-07-26;2025-08-03;MG03;Manaus;947;Aéreo;22.2;1391.0;Atrasado
+1797;Carolina;2025-09-15;2025-09-17;2025-09-20;MG03;Belo Horizonte;1978;Ferroviário;25.3;993.6;Entregue
+1798;Maitê;2025-07-07;2025-07-08;;MG03;Manaus;2179;Ferroviário;46.6;1244.4;Em trânsito
+1799;Pedro Miguel;2025-09-02;2025-09-03;2025-09-09;RS04;Salvador;2730;Ferroviário;36.0;1380.0;Entregue
+1800;Nathan;2025-09-07;2025-09-08;2025-09-09;SP01;Manaus;1314;Ferroviário;30.4;768.8;Entregue
+1801;Arthur;2025-06-27;2025-06-28;2025-07-04;MG03;Goiânia;1844;Rodoviário;26.2;1184.0;Entregue
+1802;Isabella;2025-07-06;2025-07-08;2025-07-12;RJ02;Recife;2160;Rodoviário;35.8;1438.0;Entregue
+1803;Pedro Henrique;2025-07-13;2025-07-15;2025-07-17;SP01;Brasília;2221;Ferroviário;21.2;1058.0;Entregue
+1804;Letícia;2025-08-31;2025-09-01;2025-09-06;RS04;Fortaleza;465;Rodoviário;9.0;322.5;Entregue
+1805;Calebe;2025-07-09;2025-07-10;2025-07-24;SP01;Goiânia;1441;Ferroviário;20.4;739.6;Atrasado
+1806;Evelyn;2025-07-07;2025-07-08;2025-07-14;RS04;Manaus;1838;Rodoviário;25.0;1169.0;Entregue
+1807;Helena;2025-09-01;2025-09-02;2025-09-07;SP01;Rio de Janeiro;1677;Rodoviário;46.2;1300.5;Entregue
+1808;Raquel;2025-08-10;2025-08-12;2025-08-18;SP01;Curitiba;1527;Rodoviário;31.1;1074.5;Entregue
+1809;Maria Eduarda;2025-09-05;2025-09-06;2025-09-09;MG03;Goiânia;1096;Aéreo;8.9;1274.0;Entregue
+1810;Mariana;2025-08-23;2025-08-25;2025-08-27;RJ02;Goiânia;2485;Ferroviário;13.6;1102.8;Entregue
+1811;Luiz Henrique;2025-08-14;2025-08-15;;SP01;Goiânia;2735;Ferroviário;20.4;1257.2;Em trânsito
+1812;Murilo;2025-07-08;2025-07-11;2025-07-19;MG03;Fortaleza;1431;Ferroviário;32.1;829.2;Atrasado
+1813;Danilo;2025-07-04;2025-07-06;2025-07-20;RS04;Salvador;1953;Rodoviário;5.9;1035.5;Atrasado
+1814;Maria Cecília;2025-08-05;2025-08-07;2025-08-09;RS04;Recife;959;Ferroviário;26.6;596.4;Entregue
+1815;Diogo;2025-08-07;2025-08-10;2025-08-19;RJ02;Manaus;1457;Rodoviário;38.7;1115.5;Atrasado
+1816;Noah;2025-07-28;2025-07-29;2025-08-01;RS04;Curitiba;2606;Ferroviário;41.3;1372.8;Entregue
+1817;Kevin;2025-08-26;2025-08-27;2025-09-06;SP01;Fortaleza;2757;Ferroviário;28.0;1326.8;Atrasado
+1818;Yasmin;2025-09-08;2025-09-10;2025-09-15;MG03;São Paulo;2451;Rodoviário;11.9;1344.5;Entregue
+1819;Heloísa;2025-07-04;2025-07-07;;MG03;Goiânia;1635;Aéreo;30.8;2251.0;Em trânsito
+1820;Ana Laura;2025-07-18;2025-07-20;;RJ02;Salvador;2096;Aéreo;10.4;2304.0;Em trânsito
+1821;Francisco;2025-08-30;2025-09-02;2025-09-07;MG03;Fortaleza;1194;Rodoviário;31.3;910.0;Entregue
+1822;Marcela;2025-08-30;2025-09-02;2025-09-13;RS04;Recife;542;Ferroviário;17.3;355.2;Atrasado
+1823;Lavínia;2025-09-15;2025-09-18;2025-09-23;SP01;Vitória;1510;Rodoviário;14.5;900.0;Entregue
+1824;Benjamin;2025-07-09;2025-07-10;2025-07-17;MG03;Salvador;1741;Ferroviário;24.6;893.2;Atrasado
+1825;Ana Lívia;2025-07-27;2025-07-29;2025-07-31;RS04;Salvador;463;Rodoviário;29.0;521.5;Entregue
+1826;Giovanna;2025-08-17;2025-08-19;2025-08-26;MG03;Belo Horizonte;2927;Rodoviário;12.9;1592.5;Atrasado
+1827;Carlos Eduardo;2025-07-27;2025-07-29;2025-08-04;SP01;Curitiba;2997;Ferroviário;46.5;1570.8;Entregue
+1828;Enrico;2025-07-19;2025-07-20;2025-08-01;RS04;Belo Horizonte;2799;Rodoviário;28.8;1687.5;Atrasado
+1829;Yago;2025-08-03;2025-08-06;2025-08-10;RJ02;Porto Alegre;2359;Rodoviário;39.8;1577.5;Entregue
+1830;Valentina;2025-06-25;2025-06-27;2025-07-03;RS04;Salvador;1877;Rodoviário;30.1;1239.5;Entregue
+1831;Calebe;2025-08-19;2025-08-21;2025-08-25;RS04;Recife;234;Rodoviário;37.6;493.0;Entregue
+1832;Carolina;2025-06-21;2025-06-23;2025-06-27;RJ02;Goiânia;1965;Aéreo;5.5;2075.0;Entregue
+1833;Davi Lucas;2025-07-13;2025-07-14;2025-07-20;RS04;Belo Horizonte;2413;Ferroviário;20.2;1126.8;Entregue
+1834;Emanuel;2025-08-14;2025-08-16;2025-08-22;MG03;Fortaleza;900;Rodoviário;8.4;534.0;Entregue
+1835;Felipe;2025-08-23;2025-08-24;2025-08-28;RS04;Manaus;2430;Rodoviário;42.3;1638.0;Entregue
+1836;Laura;2025-07-29;2025-07-31;2025-08-02;SP01;Brasília;2938;Rodoviário;7.4;1543.0;Entregue
+1837;Lívia;2025-08-06;2025-08-08;2025-08-09;SP01;Rio de Janeiro;629;Rodoviário;22.7;541.5;Entregue
+1838;Murilo;2025-09-02;2025-09-05;2025-09-16;RJ02;Rio de Janeiro;2769;Rodoviário;32.8;1712.5;Atrasado
+1839;Vitor Gabriel;2025-07-12;2025-07-14;2025-07-16;MG03;Curitiba;276;Aéreo;48.7;1250.0;Entregue
+1840;Benjamin;2025-07-05;2025-07-06;2025-07-07;RS04;Manaus;2357;Rodoviário;26.7;1445.5;Entregue
+1841;Luiz Otávio;2025-07-19;2025-07-22;2025-07-23;RS04;Fortaleza;645;Rodoviário;26.9;591.5;Entregue
+1842;Isabel;2025-07-06;2025-07-07;2025-07-09;RJ02;Salvador;1462;Rodoviário;43.3;1164.0;Entregue
+1843;Gabriela;2025-07-24;2025-07-27;2025-07-31;RJ02;Brasília;1231;Aéreo;22.0;1671.0;Entregue
+1844;João Lucas;2025-07-21;2025-07-23;2025-07-28;MG03;Manaus;1327;Rodoviário;31.2;975.5;Entregue
+1845;Cauã;2025-09-13;2025-09-14;2025-09-19;SP01;Porto Alegre;2992;Rodoviário;19.2;1688.0;Entregue
+1846;Daniela;2025-09-01;2025-09-04;2025-09-08;RS04;Belo Horizonte;354;Ferroviário;12.0;237.6;Entregue
+1847;Daniel;2025-08-26;2025-08-28;2025-08-31;RS04;Manaus;520;Aéreo;25.3;1026.0;Entregue
+1848;Emanuel;2025-09-11;2025-09-12;2025-09-15;MG03;Fortaleza;2608;Rodoviário;14.2;1446.0;Entregue
+1849;Yuri;2025-09-15;2025-09-16;;RS04;Porto Alegre;973;Rodoviário;25.1;737.5;Em trânsito
+1850;Pedro Lucas;2025-09-09;2025-09-10;2025-09-11;RS04;Vitória;2671;Rodoviário;33.6;1671.5;Entregue
+1851;Ana Beatriz;2025-08-02;2025-08-05;2025-08-11;RJ02;Recife;2765;Rodoviário;41.6;1798.5;Entregue
+1852;Thiago;2025-08-15;2025-08-18;;RS04;Porto Alegre;644;Rodoviário;33.2;654.0;Em trânsito
+1853;Mariana;2025-08-10;2025-08-11;;RJ02;Brasília;2524;Rodoviário;19.0;1452.0;Em trânsito
+1854;Luigi;2025-06-22;2025-06-23;2025-06-26;RJ02;Goiânia;1113;Aéreo;33.9;1791.0;Entregue
+1855;Augusto;2025-08-18;2025-08-19;2025-08-21;RS04;Porto Alegre;672;Aéreo;38.3;1438.0;Entregue
+1856;Cauê;2025-07-19;2025-07-21;2025-07-23;SP01;Curitiba;528;Rodoviário;18.1;445.0;Entregue
+1857;Luiz Fernando;2025-07-16;2025-07-17;2025-07-18;MG03;Manaus;2515;Aéreo;44.0;3395.0;Entregue
+1858;Fernando;2025-07-30;2025-08-01;2025-08-14;RJ02;São Paulo;1569;Ferroviário;23.9;818.8;Atrasado
+1859;Daniel;2025-07-20;2025-07-21;2025-07-25;MG03;Recife;997;Aéreo;10.9;1215.0;Entregue
+1860;Emilly;2025-08-09;2025-08-11;2025-08-14;MG03;Rio de Janeiro;788;Ferroviário;31.2;564.8;Entregue
+1861;Clarice;2025-09-06;2025-09-09;2025-09-18;RS04;Goiânia;806;Ferroviário;8.7;392.0;Atrasado
+1862;Stella;2025-08-31;2025-09-01;;RS04;São Paulo;687;Rodoviário;23.8;581.5;Em trânsito
+1863;Maria Alice;2025-09-11;2025-09-14;2025-09-22;MG03;Salvador;306;Ferroviário;19.0;274.4;Atrasado
+1864;Thomas;2025-09-10;2025-09-11;2025-09-13;SP01;Belo Horizonte;513;Ferroviário;12.9;308.4;Entregue
+1865;Arthur;2025-07-15;2025-07-18;2025-07-19;RS04;Porto Alegre;679;Rodoviário;41.9;758.5;Entregue
+1866;Antônio;2025-07-31;2025-08-03;;RJ02;Vitória;330;Aéreo;25.7;844.0;Em trânsito
+1867;João;2025-06-19;2025-06-21;2025-06-24;SP01;Fortaleza;1316;Ferroviário;17.7;668.0;Entregue
+1868;Ana Lívia;2025-09-10;2025-09-11;2025-09-18;SP01;São Paulo;168;Rodoviário;13.5;219.0;Atrasado
+1869;Fernando;2025-09-11;2025-09-12;;MG03;Belo Horizonte;1969;Ferroviário;30.6;1032.4;Em trânsito
+1870;Leonardo;2025-08-13;2025-08-16;2025-08-18;RS04;Manaus;2242;Aéreo;45.2;3146.0;Entregue
+1871;Bárbara;2025-09-10;2025-09-12;2025-09-16;MG03;Fortaleza;1082;Rodoviário;29.6;837.0;Entregue
+1872;Isabel;2025-09-13;2025-09-14;;RS04;Porto Alegre;1653;Rodoviário;47.8;1304.5;Em trânsito
+1873;Clarice;2025-08-08;2025-08-11;2025-08-12;SP01;Belo Horizonte;376;Rodoviário;25.1;439.0;Entregue
+1874;Maria Clara;2025-08-07;2025-08-08;2025-08-14;SP01;Recife;2103;Rodoviário;8.9;1140.5;Entregue
+1875;Calebe;2025-07-29;2025-07-30;2025-08-05;MG03;Porto Alegre;1620;Aéreo;5.3;1726.0;Entregue
+1876;Ana Julia;2025-06-23;2025-06-25;;RS04;Recife;802;Ferroviário;47.4;700.0;Em trânsito
+1877;Rebeca;2025-08-02;2025-08-03;2025-08-05;MG03;Curitiba;1142;Ferroviário;49.8;855.2;Entregue
+1878;Luiz Henrique;2025-08-28;2025-08-29;;MG03;São Paulo;1674;Rodoviário;12.6;963.0;Em trânsito
+1879;Bianca;2025-07-22;2025-07-24;2025-07-30;RS04;Curitiba;2875;Rodoviário;17.2;1609.5;Entregue
+1880;Laís;2025-07-05;2025-07-07;2025-07-09;SP01;Belo Horizonte;879;Rodoviário;43.3;872.5;Entregue
+1881;Gabriela;2025-07-28;2025-07-31;2025-08-01;SP01;Goiânia;2418;Rodoviário;20.1;1410.0;Entregue
+1882;Bruno;2025-07-06;2025-07-09;2025-07-12;SP01;Goiânia;2872;Rodoviário;27.7;1713.0;Entregue
+1883;Giovanna;2025-06-22;2025-06-25;2025-07-01;MG03;Goiânia;1269;Ferroviário;8.6;576.4;Entregue
+1884;Thiago;2025-07-19;2025-07-21;2025-07-22;SP01;Rio de Janeiro;2575;Rodoviário;46.7;1754.5;Entregue
+1885;Luna;2025-06-23;2025-06-25;2025-06-27;RS04;Salvador;2078;Rodoviário;44.0;1479.0;Entregue
+1886;Gabriel;2025-08-11;2025-08-13;2025-08-16;MG03;Rio de Janeiro;2536;Rodoviário;36.1;1629.0;Entregue
+1887;Murilo;2025-09-13;2025-09-16;;SP01;Goiânia;2341;Rodoviário;35.9;1529.5;Em trânsito
+1888;Luiza;2025-06-29;2025-07-02;2025-07-07;RJ02;Recife;167;Ferroviário;11.3;157.2;Entregue
+1889;Diogo;2025-07-07;2025-07-10;2025-07-14;RJ02;Porto Alegre;1743;Rodoviário;18.9;1060.5;Entregue
+1890;Juan;2025-08-12;2025-08-15;2025-08-17;MG03;Goiânia;2269;Ferroviário;23.2;1093.2;Entregue
+1891;Bianca;2025-07-20;2025-07-21;2025-07-31;MG03;Recife;2122;Ferroviário;7.9;912.0;Atrasado
+1892;Maria Sophia;2025-06-27;2025-06-29;;MG03;Rio de Janeiro;2703;Ferroviário;41.7;1414.8;Em trânsito
+1893;Lorena;2025-08-16;2025-08-17;2025-08-20;MG03;Salvador;173;Rodoviário;8.1;167.5;Entregue
+1894;Gabriel;2025-08-27;2025-08-28;2025-09-02;RS04;Rio de Janeiro;2747;Rodoviário;14.6;1519.5;Entregue
+1895;Juan;2025-09-15;2025-09-16;2025-09-23;MG03;Belo Horizonte;376;Rodoviário;48.9;677.0;Atrasado
+1896;Pedro Miguel;2025-07-02;2025-07-05;2025-07-09;SP01;Porto Alegre;1291;Ferroviário;21.1;685.2;Entregue
+1897;Leonardo;2025-08-26;2025-08-27;2025-09-06;RJ02;Brasília;2409;Ferroviário;19.1;1116.4;Atrasado
+1898;Isabella;2025-07-03;2025-07-06;2025-07-08;SP01;Curitiba;165;Rodoviário;36.2;444.5;Entregue
+1899;Ryan;2025-07-10;2025-07-12;2025-07-15;MG03;Belo Horizonte;326;Ferroviário;49.3;524.8;Entregue
+1900;Vitor;2025-08-13;2025-08-14;2025-08-19;SP01;Vitória;2840;Rodoviário;28.9;1709.0;Entregue
+1901;Arthur;2025-07-17;2025-07-19;2025-07-25;RS04;Belo Horizonte;358;Rodoviário;28.3;462.0;Entregue
+1902;Benjamin;2025-09-11;2025-09-13;2025-09-27;RJ02;Manaus;1239;Rodoviário;7.3;692.5;Atrasado
+1903;Levi;2025-08-26;2025-08-29;2025-09-03;RJ02;Salvador;2594;Rodoviário;19.5;1492.0;Entregue
+1904;Melissa;2025-07-25;2025-07-27;2025-07-31;MG03;Recife;1680;Aéreo;36.8;2416.0;Entregue
+1905;Anthony;2025-09-03;2025-09-06;2025-09-12;RJ02;Salvador;1975;Rodoviário;34.0;1327.5;Entregue
+1906;Thales;2025-06-25;2025-06-26;2025-06-27;RS04;São Paulo;1749;Rodoviário;6.5;939.5;Entregue
+1907;Lucca;2025-07-11;2025-07-13;2025-07-18;RJ02;Belo Horizonte;578;Rodoviário;16.9;458.0;Entregue
+1908;Heitor;2025-08-16;2025-08-19;2025-08-21;MG03;São Paulo;2163;Rodoviário;11.5;1196.5;Entregue
+1909;Augusto;2025-08-06;2025-08-08;2025-08-09;RS04;Brasília;1960;Ferroviário;44.1;1136.8;Entregue
+1910;Maria Eduarda;2025-07-25;2025-07-26;2025-08-06;MG03;Manaus;2640;Rodoviário;16.6;1486.0;Atrasado
+1911;Rebeca;2025-08-27;2025-08-29;2025-09-07;RJ02;Porto Alegre;570;Ferroviário;48.6;616.8;Atrasado
+1912;Lorenzo;2025-08-03;2025-08-05;2025-08-08;SP01;Salvador;736;Rodoviário;24.7;615.0;Entregue
+1913;João Vitor;2025-08-29;2025-08-31;2025-09-05;RS04;Brasília;2244;Aéreo;8.4;2412.0;Entregue
+1914;Nathan;2025-08-02;2025-08-03;2025-08-16;RJ02;Rio de Janeiro;2750;Rodoviário;35.6;1731.0;Atrasado
+1915;Marcos Vinicius;2025-08-09;2025-08-12;2025-08-15;MG03;Goiânia;2762;Ferroviário;38.8;1415.2;Entregue
+1916;Alana;2025-08-05;2025-08-08;2025-08-10;RJ02;Goiânia;1069;Rodoviário;24.2;776.5;Entregue
+1917;Enzo;2025-06-22;2025-06-24;;RJ02;Rio de Janeiro;2823;Rodoviário;8.0;1491.5;Em trânsito
+1918;Joana;2025-08-08;2025-08-10;;MG03;Manaus;1105;Ferroviário;38.7;751.6;Em trânsito
+1919;Antônio;2025-07-30;2025-08-01;2025-08-11;RJ02;Fortaleza;1889;Ferroviário;9.6;832.4;Atrasado
+1920;Isabella;2025-06-27;2025-06-28;2025-07-03;RS04;Recife;2894;Rodoviário;35.2;1799.0;Entregue
+1921;Calebe;2025-06-29;2025-07-01;2025-07-07;MG03;Salvador;1340;Aéreo;15.9;1658.0;Entregue
+1922;Maysa;2025-07-03;2025-07-04;2025-07-10;SP01;Fortaleza;470;Ferroviário;6.1;236.8;Entregue
+1923;Sofia;2025-08-13;2025-08-15;2025-08-17;SP01;Vitória;1789;Ferroviário;37.7;1017.2;Entregue
+1924;Maria Fernanda;2025-07-12;2025-07-13;2025-07-19;MG03;Recife;1548;Ferroviário;5.8;665.6;Entregue
+1925;Juliana;2025-08-03;2025-08-05;2025-08-10;SP01;Vitória;1196;Rodoviário;49.8;1096.0;Entregue
+1926;Emilly;2025-08-02;2025-08-03;2025-08-06;SP01;Brasília;2987;Ferroviário;35.4;1478.0;Entregue
+1927;Luigi;2025-08-08;2025-08-11;2025-08-12;MG03;Manaus;2981;Ferroviário;43.6;1541.2;Entregue
+1928;Igor;2025-08-24;2025-08-25;2025-08-27;RS04;Vitória;1817;Rodoviário;32.1;1229.5;Entregue
+1929;Júlia;2025-08-28;2025-08-30;2025-09-01;RJ02;Manaus;1205;Ferroviário;7.5;542.0;Entregue
+1930;Clara;2025-09-09;2025-09-10;2025-09-14;SP01;São Paulo;2910;Aéreo;6.5;3040.0;Entregue
+1931;Maria Alice;2025-07-29;2025-07-31;2025-08-03;RJ02;Recife;1454;Rodoviário;33.0;1057.0;Entregue
+1932;Anthony;2025-06-23;2025-06-24;;SP01;Fortaleza;2658;Aéreo;48.9;3636.0;Em trânsito
+1933;Bernardo;2025-06-22;2025-06-25;2025-07-01;MG03;Vitória;1902;Ferroviário;27.2;978.4;Entregue
+1934;Vitória;2025-07-12;2025-07-15;;SP01;Manaus;1198;Rodoviário;18.3;782.0;Em trânsito
+1935;Vitor Hugo;2025-06-26;2025-06-28;2025-07-01;MG03;Belo Horizonte;2154;Aéreo;13.9;2432.0;Entregue
+1936;Elisa;2025-09-15;2025-09-18;2025-09-22;RS04;Rio de Janeiro;775;Rodoviário;28.4;671.5;Entregue
+1937;Theo;2025-07-10;2025-07-13;2025-07-19;RS04;Vitória;538;Rodoviário;24.0;509.0;Entregue
+1938;Enrico;2025-08-15;2025-08-16;2025-08-19;RJ02;Fortaleza;718;Ferroviário;42.8;629.6;Entregue
+1939;Camila;2025-07-10;2025-07-11;2025-07-12;RJ02;Salvador;2213;Ferroviário;35.7;1170.8;Entregue
+1940;Evelyn;2025-08-05;2025-08-08;2025-08-13;RJ02;Manaus;1720;Rodoviário;28.0;1140.0;Entregue
+1941;Joana;2025-08-18;2025-08-21;2025-09-02;SP01;Porto Alegre;2661;Ferroviário;35.3;1346.8;Atrasado
+1942;Natália;2025-07-21;2025-07-24;2025-07-26;MG03;Manaus;2642;Aéreo;17.4;2990.0;Entregue
+1943;Gabriela;2025-07-02;2025-07-03;2025-07-14;RJ02;Curitiba;239;Rodoviário;14.8;267.5;Atrasado
+1944;Bianca;2025-08-21;2025-08-24;2025-08-26;RJ02;Manaus;1972;Aéreo;15.8;2288.0;Entregue
+1945;Rafaela;2025-07-02;2025-07-03;2025-07-07;RJ02;Vitória;2844;Rodoviário;12.3;1545.0;Entregue
+1946;Samuel;2025-07-12;2025-07-13;2025-07-15;SP01;Curitiba;2229;Rodoviário;9.3;1207.5;Entregue
+1947;Isabelly;2025-07-05;2025-07-08;2025-07-14;MG03;Belo Horizonte;2773;Rodoviário;9.8;1484.5;Entregue
+1948;Emilly;2025-07-29;2025-07-30;2025-08-01;MG03;Curitiba;2717;Rodoviário;41.2;1770.5;Entregue
+1949;Ana Vitória;2025-07-29;2025-07-30;2025-08-05;SP01;Goiânia;1175;Aéreo;27.6;1727.0;Entregue
+1950;Maria Vitória;2025-07-01;2025-07-02;2025-07-07;SP01;Manaus;1155;Ferroviário;28.5;690.0;Entregue
+1951;Laís;2025-08-20;2025-08-22;2025-08-25;RJ02;Vitória;2400;Rodoviário;20.4;1404.0;Entregue
+1952;Laís;2025-07-13;2025-07-15;2025-07-19;SP01;Belo Horizonte;1264;Aéreo;11.2;1488.0;Entregue
+1953;Raquel;2025-07-15;2025-07-18;2025-07-23;RJ02;Vitória;271;Rodoviário;31.1;446.5;Entregue
+1954;Eduarda;2025-07-21;2025-07-23;2025-07-28;RJ02;Porto Alegre;157;Rodoviário;32.5;403.5;Entregue
+1955;Luna;2025-08-23;2025-08-26;2025-08-28;SP01;Recife;1890;Rodoviário;29.1;1236.0;Entregue
+1956;João Miguel;2025-06-24;2025-06-25;2025-06-26;RJ02;Fortaleza;1688;Rodoviário;22.6;1070.0;Entregue
+1957;Olivia;2025-08-14;2025-08-15;2025-08-22;RS04;Rio de Janeiro;2670;Ferroviário;23.8;1258.4;Atrasado
+1958;Igor;2025-07-09;2025-07-10;2025-07-14;RJ02;Goiânia;377;Rodoviário;25.2;440.5;Entregue
+1959;Augusto;2025-09-03;2025-09-06;2025-09-16;RJ02;Fortaleza;1733;Rodoviário;48.2;1348.5;Atrasado
+1960;Maitê;2025-07-25;2025-07-26;2025-07-29;MG03;Fortaleza;2358;Rodoviário;5.9;1238.0;Entregue
+1961;Ana Clara;2025-06-27;2025-06-29;2025-07-02;RS04;Rio de Janeiro;2829;Ferroviário;38.6;1440.4;Entregue
+1962;Sabrina;2025-08-27;2025-08-28;2025-08-31;SP01;Recife;623;Rodoviário;24.8;559.5;Entregue
+1963;Renan;2025-08-21;2025-08-22;2025-08-30;SP01;Salvador;2416;Rodoviário;29.4;1502.0;Atrasado
+1964;Davi Lucca;2025-08-11;2025-08-12;2025-08-14;SP01;Manaus;2698;Rodoviário;24.9;1598.0;Entregue
+1965;Letícia;2025-06-27;2025-06-28;2025-06-29;RJ02;Rio de Janeiro;777;Rodoviário;31.7;705.5;Entregue
+1966;Miguel;2025-08-05;2025-08-06;2025-08-08;SP01;Recife;545;Rodoviário;46.2;734.5;Entregue
+1967;Gabrielly;2025-09-10;2025-09-12;2025-09-14;MG03;Goiânia;1222;Ferroviário;45.4;852.0;Entregue
+1968;Ana;2025-08-21;2025-08-24;2025-08-25;SP01;Porto Alegre;2380;Rodoviário;18.6;1376.0;Entregue
+1969;Ana Luiza;2025-06-18;2025-06-19;2025-06-21;SP01;Rio de Janeiro;1174;Aéreo;10.6;1386.0;Entregue
+1970;Lara;2025-09-12;2025-09-15;2025-09-18;RJ02;Recife;803;Rodoviário;9.9;500.5;Entregue
+1971;Eduardo;2025-08-31;2025-09-03;2025-09-07;SP01;Belo Horizonte;2798;Rodoviário;26.6;1665.0;Entregue
+1972;Pietro;2025-09-10;2025-09-11;2025-09-16;RJ02;Goiânia;432;Rodoviário;6.1;277.0;Entregue
+1973;João Miguel;2025-08-18;2025-08-21;2025-08-24;MG03;Manaus;1297;Ferroviário;33.6;787.6;Entregue
+1974;Laura;2025-09-02;2025-09-05;2025-09-07;SP01;Brasília;1843;Aéreo;48.5;2813.0;Entregue
+1975;Maria Clara;2025-09-10;2025-09-13;2025-09-15;RJ02;Belo Horizonte;1664;Rodoviário;40.6;1238.0;Entregue
+1976;Clarice;2025-08-06;2025-08-07;2025-08-12;MG03;Salvador;1516;Ferroviário;11.0;694.4;Entregue
+1977;Benjamin;2025-08-21;2025-08-22;2025-08-24;MG03;Salvador;655;Rodoviário;45.4;781.5;Entregue
+1978;Rodrigo;2025-08-22;2025-08-25;2025-08-27;RS04;Belo Horizonte;175;Ferroviário;14.8;188.4;Entregue
+1979;Beatriz;2025-08-05;2025-08-07;2025-08-19;SP01;Vitória;1208;Aéreo;7.2;1352.0;Atrasado
+1980;Bernardo;2025-06-29;2025-06-30;2025-07-01;MG03;Porto Alegre;2262;Aéreo;7.0;2402.0;Entregue
+1981;Antônio;2025-08-22;2025-08-25;2025-08-26;MG03;Belo Horizonte;970;Rodoviário;20.4;689.0;Entregue
+1982;Thales;2025-07-31;2025-08-01;;RS04;Salvador;759;Ferroviário;27.6;524.4;Em trânsito
+1983;Pedro Lucas;2025-08-15;2025-08-17;2025-08-18;MG03;São Paulo;918;Aéreo;14.6;1210.0;Entregue
+1984;Sophia;2025-07-14;2025-07-15;2025-07-18;RS04;Porto Alegre;2117;Ferroviário;16.4;978.0;Entregue
+1985;Isadora;2025-08-01;2025-08-04;2025-08-08;SP01;Curitiba;1538;Rodoviário;38.1;1150.0;Entregue
+1986;Ana Beatriz;2025-08-09;2025-08-10;2025-08-12;RS04;Goiânia;2163;Rodoviário;23.8;1319.5;Entregue
+1987;Lara;2025-09-03;2025-09-04;2025-09-05;RJ02;Fortaleza;979;Aéreo;10.8;1195.0;Entregue
+1988;Enzo Gabriel;2025-07-29;2025-07-31;2025-08-02;SP01;Goiânia;2654;Aéreo;36.4;3382.0;Entregue
+1989;Giovanna;2025-07-08;2025-07-09;2025-07-15;RS04;Vitória;1077;Rodoviário;44.0;978.5;Entregue
+1990;Juliana;2025-07-21;2025-07-23;2025-07-26;RS04;Manaus;1664;Ferroviário;9.8;744.0;Entregue
+1991;Enzo;2025-08-25;2025-08-26;2025-08-31;SP01;Recife;2204;Rodoviário;21.1;1313.0;Entregue
+1992;Ana Clara;2025-08-16;2025-08-17;2025-08-20;SP01;Recife;1563;Rodoviário;27.1;1052.5;Entregue
+1993;Luna;2025-08-23;2025-08-25;2025-08-27;SP01;São Paulo;2051;Rodoviário;30.8;1333.5;Entregue
+1994;Leandro;2025-08-13;2025-08-16;;RS04;Porto Alegre;2693;Rodoviário;9.8;1444.5;Em trânsito
+1995;Joana;2025-09-06;2025-09-08;2025-09-17;MG03;Manaus;544;Rodoviário;18.8;460.0;Atrasado
+1996;Kamilly;2025-07-29;2025-08-01;2025-08-03;RS04;Fortaleza;2145;Rodoviário;25.1;1323.5;Entregue
+1997;Juliana;2025-09-09;2025-09-11;2025-09-12;RS04;Vitória;1406;Ferroviário;14.3;676.8;Entregue
+1998;Kaique;2025-07-17;2025-07-18;2025-07-21;RS04;Salvador;202;Rodoviário;30.4;405.0;Entregue
+1999;Paulo;2025-08-22;2025-08-24;;MG03;Manaus;1244;Rodoviário;44.3;1065.0;Em trânsito
+2000;Anthony;2025-07-05;2025-07-07;2025-07-20;RS04;Brasília;1090;Rodoviário;17.0;715.0;Atrasado
